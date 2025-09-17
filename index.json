@@ -1,0 +1,29 @@
+{
+  "categories": [
+    "All Movies",
+    "Action",
+    "Adventure",
+    "Animation",
+    "Comedy",
+    "Crime",
+    "Drama",
+    "Family",
+    "Fantasy",
+    "History",
+    "Horror",
+    "Musical",
+    "Mystery",
+    "News",
+    "Romance",
+    "Sci-Fi",
+    "Sport",
+    "Thriller",
+    "War",
+    "Western"
+  ],
+  "sorts": [
+    "Year",
+    "Title",
+    "Rating"
+  ]
+}

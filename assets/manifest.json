@@ -1,0 +1,25 @@
+{
+  "name": "Castify",
+  "short_name": "Castify",
+  "description": "Chromecast-Enabled Movie Library for Streaming",
+  "start_url": "/castify/",
+  "scope": "/",
+  "display": "fullscreen",
+  "orientation": "landscape-primary",
+  "background_color": "#161616",
+  "theme_color": "#161616",
+  "icons": [
+    {
+      "src": "./images/logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./images/logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

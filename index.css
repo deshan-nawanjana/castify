@@ -1,0 +1,455 @@
+* {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  font-family: "Inter";
+  user-select: none;
+}
+
+body {
+  margin: 0px;
+  background-color: #222;
+  background-image: url(./assets/images/background.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#app {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  display: flex;
+  height: calc(100vh - calc(100vh - 100%));
+  flex-direction: column;
+}
+
+#app:not([data-ready]) {
+  background-color: #111A;
+  backdrop-filter: blur(10px) saturate(120%);
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+#app:not([data-ready]) .header,
+#app:not([data-ready]) .results,
+#app:not([data-ready]) .footer,
+#app:not([data-ready]) .actions {
+  display: none;
+}
+
+.logo {
+  display: none;
+  width: 140px;
+  height: 140px;
+  background-image: url(./assets/images/logo-512.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 50px;
+}
+
+.spinner {
+  display: none;
+  width: 40px;
+  height: 40px;
+  background-image: url(./assets/images/icons/spinner.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#app:not([data-ready]) .logo,
+#app:not([data-ready]) .spinner {
+  display: flex;
+}
+
+.header {
+  display: flex;
+  width: 100vw;
+  background-color: #161616;
+  height: 60px;
+  flex-shrink: 0;
+}
+
+.keyword {
+  padding: 12px;
+}
+
+.keyword input {
+  height: 35px;
+  border-radius: 8px;
+  border: none;
+  padding: 0px 12px;
+  background-color: #FFFFFF16;
+  color: #FFFA;
+  width: 260px;
+}
+
+.categories {
+  padding: 12px 12px 12px 0px;
+  backdrop-filter: blur(5px);
+  flex-grow: 1;
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+}
+
+.categories::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.categories button {
+  font-size: 12px;
+  border-radius: 30px;
+  border-radius: 8px;
+  border: none;
+  height: 35px;
+  padding: 0px 18px;
+  cursor: pointer;
+  color: #FFFC;
+  background-color: #fff3;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+.categories button[data-active] {
+  color: #FFF;
+  background-color: #00994d;
+}
+
+.results {
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 30px;
+  background-color: #1118;
+  backdrop-filter: blur(10px) saturate(120%);
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+.results::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.results::-webkit-scrollbar-thumb {
+  background-color: #FFF8;
+}
+
+.results[data-empty] {
+  align-items: center;
+}
+
+.results-empty {
+  color: #FFFA;
+  font-size: 24px;
+}
+
+.item {
+  --width: 180px;
+  width: var(--width);
+  height: calc(calc(240 / 160) * var(--width));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #FFF2;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.15s;
+}
+
+.item-hover {
+  opacity: 0;
+  width: inherit;
+  height: inherit;
+  background-color: #1117;
+  background-image: url(./assets/images//icons/play.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80px auto;
+  transition: all 0.15s;
+}
+
+.item:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 0px 20px #111A;
+}
+
+.item:hover .item-hover {
+  opacity: 1;
+}
+
+.item:active {
+  transform: scale(1);
+}
+
+.item:active .item-hover {
+  background-color: #111A;
+  background-size: 70px auto;
+}
+
+.item[data-status="pending"] .item-hover,
+.item[data-status="playing"] .item-hover,
+.item[data-status="paused"] .item-hover {
+  background-color: #111A;
+  opacity: 1;
+}
+
+.item[data-status="pending"] .item-hover {
+  background-image: url(./assets/images/icons/spinner.svg);
+  background-size: 45px auto;
+}
+
+.item[data-status="playing"] .item-hover {
+  background-image: url(./assets/images/icons/pause.svg);
+  background-size: 55px auto;
+}
+
+.item[data-status="paused"] .item-hover {
+  background-image: url(./assets/images/icons/play.svg);
+  background-size: 55px auto;
+}
+
+.actions {
+  position: fixed;
+  flex-direction: column;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  bottom: 0px;
+  right: 0px;
+}
+
+[data-playing] .actions {
+  bottom: 154px;
+}
+
+.actions button {
+  width: 40px;
+  height: 40px;
+  background-color: #FFF;
+  border: none;
+  border-radius: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px auto;
+  box-shadow: 0px 0px 8px #0006;
+  transition: all 0.15s;
+  cursor: pointer;
+}
+
+.actions button:active {
+  background-color: #FFFA;
+}
+
+.actions button.address {
+  background-image: url(./assets/images/icons/address.svg);
+}
+
+.footer {
+  display: flex;
+  flex-shrink: 0px;
+  background-color: #161616;
+  padding: 12px;
+}
+
+.footer-cover {
+  width: 85px;
+  height: 130px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 5px 20px 0px 20px;
+  width: calc(100% - 180px);
+  gap: 10px;
+}
+
+.footer-title {
+  font-size: 20px;
+  color: #FFFB;
+  line-height: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: calc(100vw - 140px);
+}
+
+.footer-description {
+  font-size: 12px;
+  color: #FFF6;
+  line-height: 18px;
+  font-weight: 300;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.controls-seek {
+  width: 100%;
+  appearance: none;
+  height: 4px;
+  background-color: #FFF3;
+  background: linear-gradient(to right, #e60000 calc(var(--progress) * 100%), #FFF3 calc(var(--progress) * 100%));
+}
+
+.controls-seek::-webkit-slider-thumb {
+  appearance: none;
+  width: 0px;
+  height: 14px;
+  border-radius: 50%;
+  background: transparent;
+  cursor: default;
+}
+
+.controls-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.controls-buttons button {
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 8px;
+  background-color: #FFF2;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px auto;
+  transition: all 0.15s;
+}
+
+.controls-buttons button:active {
+  background-color: #FFF1;
+  background-size: 18px auto;
+}
+
+.controls-buttons button.play {
+  background-image: url(./assets/images/icons/play.svg);
+}
+
+.controls-buttons button.play[data-active] {
+  background-image: url(./assets/images/icons/pause.svg);
+}
+
+.controls-buttons button.stop {
+  background-image: url(./assets/images/icons/stop.svg);
+}
+
+.controls-buttons button.subtitles {
+  background-image: url(./assets/images/icons/subtitles.svg);
+}
+
+.controls-buttons button.subtitles[data-lang] {
+  display: flex;
+  border-radius: 8px 0px 0px 8px;
+  position: relative;
+}
+
+.controls-buttons button.subtitles[data-lang]::after {
+  margin-left: 28px;
+  display: block;
+  height: 35px;
+  width: 35px;
+  flex-shrink: 0;
+  content: attr(data-lang);
+  background-color: #06c;
+  border-radius: 0px 8px 8px 0px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #FFF;
+  position: absolute;
+  font-size: 12px;
+  top: 0px;
+}
+
+.controls-time {
+  line-height: 35px;
+  color: #FFF8;
+  font-size: 16px;
+  font-weight: 500;
+  flex-grow: 1;
+  text-align: right;
+}
+
+.controls-spinner {
+  width: 35px;
+  height: 35px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25px auto;
+  background-image: url(./assets/images/icons/spinner.svg);
+  opacity: 0.65;
+}
+
+.footer-close {
+  position: fixed;
+  right: 10px;
+  bottom: 115px;
+  width: 25px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+  background-image: url(./assets/images/icons/stop.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25px auto;
+  background-color: transparent;
+  transition: all 0.15s;
+  opacity: 0.85;
+}
+
+.footer-close:active {
+  opacity: 0.4;
+}
+
+@media (max-width: 550px) {
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 0px;
+  }
+
+  .item {
+    --width: calc(50vw - 40px);
+  }
+
+  .results {
+    padding: 30px 20px;
+  }
+
+  .keyword {
+    flex-grow: 1;
+    width: auto;
+  }
+
+  .keyword input {
+    width: calc(100% - 10px);
+    background-color: transparent;
+    padding: 0px 5px;
+  }
+
+  .categories {
+    display: none;
+  }
+}

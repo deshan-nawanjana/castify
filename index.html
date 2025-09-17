@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Chromecast-Enabled Movie Library for Streaming">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="https://deshan-nawanjana.github.io/castify/index.png" type="image/png">
+  <!-- open graph tags -->
+  <meta property="og:title" content="Castify">
+  <meta property="og:description" content="Chromecast-Enabled Movie Library for Streaming">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://deshan-nawanjana.github.io/castify/">
+  <meta property="og:image" content="https://deshan-nawanjana.github.io/castify/assets/images/cover.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <!-- twitter card tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Castify">
+  <meta name="twitter:description" content="Chromecast-Enabled Movie Library for Streaming">
+  <meta name="twitter:image" content="https://deshan-nawanjana.github.io/castify/assets/images/cover.png">  
+  <!-- preload : fonts -->
+  <link rel="preload" href="./assets/fonts/Inter-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="./assets/fonts/Inter-Light.ttf" as="font" type="font/ttf" crossorigin>
+  <!-- preload : images -->
+  <link rel="preload" href="./assets/images/icons/address.svg" as="image" type="image/svg+xml">
+  <link rel="preload" href="./assets/images/icons/pause.svg" as="image" type="image/svg+xml">
+  <link rel="preload" href="./assets/images/icons/play.svg" as="image" type="image/svg+xml">
+  <link rel="preload" href="./assets/images/icons/spinner.svg" as="image" type="image/svg+xml">
+  <link rel="preload" href="./assets/images/icons/stop.svg" as="image" type="image/svg+xml">
+  <link rel="preload" href="./assets/images/icons/subtitles.svg" as="image" type="image/svg+xml">
+  <link rel="preload" href="./assets/images/background.jpg" as="image" type="image/png">
+  <!-- manifest -->
+  <link rel="manifest" href="./assets/manifest.json" />
+  <!-- style -->
+  <link rel="stylesheet" href="./index.css">
+  <!-- fonts -->
+  <link rel="stylesheet" href="./assets/fonts/fonts.css">
+  <!-- libraries -->
+  <script src="./assets/libraries/vue.min.js"></script>
+  <!-- cast api -->
+  <script src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"></script>
+  <!-- script -->
+  <script src="./index.js" type="module" defer></script>
+  <!-- page title -->
+  <title>Castify</title>
+</head>
+<body>
+  <div id="app" :data-ready="ready" :data-playing="!!currentMovie">
+    <div class="logo"></div>
+    <div class="spinner"></div>
+    <div class="header">
+      <div class="keyword">
+        <input
+          type="text"
+          placeholder="Search movies..."
+          v-model="filters.keyword"
+          spellcheck="false"
+          autocomplete="off"
+          maxlength="20"
+        />
+      </div>
+      <div class="categories">
+        <button
+          v-for="item in options.categories"
+          :data-active="filters.category === item"
+          @click="filters.category = item">
+          {{ item }}
+        </button>
+      </div>
+    </div>
+    <div class="results" :data-empty="!results.length">
+      <div class="results-empty" v-if="!results.length">
+        Oops... No Results
+      </div>
+      <div
+        class="item"
+        v-for="item in results"
+        @click="select(item)"
+        :data-status="status(item.source)"
+        :style="image(item.source)">
+        <div class="item-hover"></div>
+      </div>
+    </div>
+    <div class="actions">
+      <button
+        class="address"
+        @click=address>
+      </button>
+    </div>
+    <div class="footer" v-if="currentMovie">
+      <button
+        v-if="currentSession"
+        class="footer-close"
+        @click="stop">
+      </button>
+      <div
+        class="footer-cover"
+        :style="image(currentMovie.source)">
+      </div>
+      <div class="footer-content">
+        <div class="footer-title">
+          {{ currentMovie.title }} ({{ currentMovie.year }})
+        </div>
+        <div class="footer-description">
+          {{ currentMovie.description }}
+        </div>
+        <div class="controls" v-if="!currentMovie.pending">
+          <input
+            class="controls-seek"
+            type="range"
+            min="0"
+            :max="parseInt(currentMedia.media.duration)"
+            :style="{ '--progress': currentRuntime }"
+            step="0.01"
+            v-model="current.time"
+            @input="seek"
+          />
+          <div class="controls-buttons">
+            <button
+              class="play"
+              @click="play"
+              :data-active="currentMedia.playerState === 'PLAYING'">
+            </button>
+            <button
+              class="subtitles"
+              v-if="currentMovie.subtitles.length"
+              :data-lang="currentMovie.subtitles[currentSubtitle]"
+              @click="subtitles">
+            </button>
+            <div class="controls-time">
+              {{ time(current.time) }} / {{ time(currentDuration) }}
+            </div>
+          </div>
+        </div>
+        <div class="controls" v-else>
+          <input
+            class="controls-seek"
+            type="range"
+            :style="{ '--progress': 0 }"
+            disabled
+          />
+          <div class="controls-buttons">
+            <div class="controls-spinner"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
