@@ -24,12 +24,14 @@
       "adult as a child"
     ],
     "cast": [
-      "Zac Efron",
       "Margaret Cho",
-      "Leslie Mann",
+      "Zac Efron",
+      "Thomas Lennon",
       "Jesse Heiman"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2012",
@@ -54,8 +56,8 @@
     "cast": [
       "Dakota Johnson",
       "Johnny Depp",
-      "Channing Tatum",
-      "Dave Franco"
+      "Robert Roldan",
+      "Holly Robinson Peete"
     ],
     "subtitles": [
       "en"
@@ -83,9 +85,9 @@
     ],
     "cast": [
       "Peter Stormare",
-      "Channing Tatum",
       "Marc Evan Jackson",
-      "Seth Rogen"
+      "Steve Terada",
+      "Johnny Pemberton"
     ],
     "subtitles": [
       "en"
@@ -114,11 +116,13 @@
     ],
     "cast": [
       "Liam Neeson",
-      "Charlize Theron",
+      "John Aylward",
       "Amanda Seyfried",
-      "John Aylward"
+      "Charlize Theron"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2025",
@@ -148,7 +152,9 @@
       "Jack Black",
       "Jennifer Coolidge"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2015",
@@ -172,11 +178,13 @@
     ],
     "cast": [
       "Kate Beckinsale",
-      "Robin Williams",
       "Michael Palin",
-      "Simon Pegg"
+      "Robin Williams",
+      "Alexa Davies"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2014",
@@ -238,7 +246,9 @@
       "Austin Butler",
       "J.K. Simmons"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "1999",
@@ -264,9 +274,11 @@
       "Eugene Levy",
       "Seann William Scott",
       "Jennifer Coolidge",
-      "Eddie Kaye Thomas"
+      "Tara Reid"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2001",
@@ -291,10 +303,12 @@
     "cast": [
       "Eugene Levy",
       "Seann William Scott",
-      "Jennifer Coolidge",
-      "Nigel Gibbs"
+      "Nigel Gibbs",
+      "Larry Drake"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2007",
@@ -317,11 +331,13 @@
     ],
     "cast": [
       "Eugene Levy",
-      "Robbie Amell",
       "Dan Petronijevic",
-      "Jonathan Keltz"
+      "Jonathan Keltz",
+      "Jordan Prentice"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2012",
@@ -329,7 +345,7 @@
     "runtime": 113,
     "rating": 6.7,
     "source": "American.Pie.Reunion.2012.Unrated.1080p.BluRay.x264.YIFY",
-    "description": "The characters we met a little more than a decade ago return to East Great Falls for their high school reunion. In one long-overdue weekend, they will discover what has changed, who hasn't, and that time and distance can't break the bonds of friendship.",
+    "description": "The characters we met a little more than a decade ago return to East Great Falls for their high school reunion. In one long-overdue weekend, they will discover what has changed, who hasn’t, and that time and distance can’t break the bonds of friendship.",
     "categories": [
       "Action",
       "Comedy"
@@ -345,10 +361,12 @@
     "cast": [
       "Eugene Levy",
       "Seann William Scott",
-      "Jennifer Coolidge",
-      "Charlene Amoia"
+      "Charlene Amoia",
+      "Neil Patrick Harris"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2003",
@@ -372,11 +390,13 @@
     ],
     "cast": [
       "Eugene Levy",
-      "Seann William Scott",
       "Reynaldo Gallegos",
-      "Jennifer Coolidge"
+      "Seann William Scott",
+      "Alexis Thorpe"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2015",
@@ -402,69 +422,13 @@
     ],
     "cast": [
       "Chris Evans",
-      "Paul Rudd",
       "Hayley Atwell",
+      "Johnny Pemberton",
       "Judy Greer"
     ],
-    "subtitles": []
-  },
-  {
-    "year": "2018",
-    "title": "Ant-Man and the Wasp",
-    "runtime": 118,
-    "rating": 7,
-    "source": "Ant-Man.And.The.Wasp.2018.1080p.BluRay.x264-[YTS.AM]",
-    "description": "Just when his time under house arrest is about to end, Scott Lang once again puts his freedom at risk to help Hope van Dyne and Dr. Hank Pym dive into the quantum realm and try to accomplish, against time and any chance of success, a very dangerous rescue mission.",
-    "categories": [
-      "Action",
-      "Adventure",
-      "Comedy",
-      "Sci-Fi"
-    ],
-    "tags": [
-      "superheroine",
-      "van",
-      "dreams",
-      "dream",
-      "insect",
-      "flying"
-    ],
-    "cast": [
-      "Goran Kostic",
-      "Paul Rudd",
-      "Judy Greer",
-      "Brian Huskey"
-    ],
-    "subtitles": []
-  },
-  {
-    "year": "2023",
-    "title": "Ant-Man and the Wasp: Quantumania",
-    "runtime": 124,
-    "rating": 6,
-    "source": "Ant-Man.And.The.Wasp.Quantumania.2023.1080p.BluRay.x264.AAC5.1-[YTS.MX]",
-    "description": "Super-Hero partners Scott Lang and Hope van Dyne, along with with Hope's parents Janet van Dyne and Hank Pym, and Scott's daughter Cassie Lang, find themselves exploring the Quantum Realm, interacting with strange new creatures and embarking on an adventure that will push them beyond the limits of what they thought possible.",
-    "categories": [
-      "Action",
-      "Adventure",
-      "Comedy",
-      "Sci-Fi"
-    ],
-    "tags": [
-      "hero",
-      "superhero",
-      "ant",
-      "stupidity",
-      "based on comic",
-      "sequel"
-    ],
-    "cast": [
-      "Paul Rudd",
-      "William Jackson Harper",
-      "Owen Wilson",
-      "Jonathan Majors"
-    ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2016",
@@ -490,10 +454,12 @@
     "cast": [
       "Mark Camacho",
       "Jeremy Renner",
-      "Amy Adams",
-      "Forest Whitaker"
+      "John Sanford Moore",
+      "Amy Adams"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2011",
@@ -501,7 +467,7 @@
     "runtime": 97,
     "rating": 7.1,
     "source": "Arthur.Christmas.2011.1080p.BRrip.x264.YIFY",
-    "description": "For hundreds of years, the Claus family has delegated the title \"Santa\" to a chosen few of its members, which can be passed down upon retirement. Each Christmas, Santa and his vast army of highly trained elves produce gifts and distribute them around the world in a one-night high-tech operation. However, when one of 600 million children to receive a gift from Santa on Christmas Eve is missed, it is deemed ‘acceptable' to all but one—Arthur Claus, the current Santa's misfit son deemed ineligible for the title, who executes an unauthorised rookie mission to get the last present halfway around the globe before dawn on Christmas morning.",
+    "description": "For hundreds of years, the Claus family has delegated the title \"Santa\" to a chosen few of its members, which can be passed down upon retirement. Each Christmas, Santa and his vast army of highly trained elves produce gifts and distribute them around the world in a one-night high-tech operation. However, when one of 600 million children to receive a gift from Santa on Christmas Eve is missed, it is deemed ‘acceptable’ to all but one—Arthur Claus, the current Santa’s misfit son deemed ineligible for the title, who executes an unauthorised rookie mission to get the last present halfway around the globe before dawn on Christmas morning.",
     "categories": [
       "Action",
       "Adventure",
@@ -521,11 +487,13 @@
     ],
     "cast": [
       "Michael Palin",
-      "James McAvoy",
-      "Bill Nighy",
-      "Jane Horrocks"
+      "Jane Horrocks",
+      "Hugh Laurie",
+      "Ramona Marquez"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2009",
@@ -549,12 +517,14 @@
       "attachment to nature"
     ],
     "cast": [
-      "Zoe Saldana",
       "Scott Lawrence",
+      "Zoe Saldana",
       "Sigourney Weaver",
       "Sam Worthington"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2022",
@@ -581,9 +551,11 @@
       "Kate Winslet",
       "Zoe Saldana",
       "Sigourney Weaver",
-      "Sam Worthington"
+      "Jack Champion"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2016",
@@ -606,11 +578,13 @@
     ],
     "cast": [
       "Mila Kunis",
-      "Kristen Bell",
       "Megan Ferguson",
-      "Wendell Pierce"
+      "Annie Mumolo",
+      "Martha Stewart"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2011",
@@ -634,11 +608,13 @@
     ],
     "cast": [
       "Dot-Marie Jones",
+      "Thomas Lennon",
       "Rick Overton",
-      "Cameron Diaz",
       "Nat Faxon"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2023",
@@ -662,12 +638,14 @@
       "doll"
     ],
     "cast": [
-      "Helen Mirren",
+      "Margot Robbie",
       "Issa Rae",
-      "John Cena",
-      "Margot Robbie"
+      "Helen Mirren",
+      "Ryan Gosling"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2014",
@@ -697,12 +675,14 @@
       "san francisco, california"
     ],
     "cast": [
-      "Frank Welker",
       "Terri Douglas",
-      "James Cromwell",
-      "Alan Tudyk"
+      "Bridget Hoffman",
+      "Frank Welker",
+      "Cam Clarke"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2017",
@@ -728,11 +708,13 @@
     ],
     "cast": [
       "Ana de Armas",
-      "Harrison Ford",
       "Ryan Gosling",
-      "Dave Bautista"
+      "Hiam Abbass",
+      "Robin Wright"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2012",
@@ -763,11 +745,13 @@
     ],
     "cast": [
       "Emma Thompson",
-      "Kelly Macdonald",
       "Julie Walters",
+      "Kelly Macdonald",
       "Robbie Coltrane"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2022",
@@ -795,7 +779,9 @@
       "Joey King",
       "Sandra Bullock"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2018",
@@ -818,12 +804,14 @@
       "spin off"
     ],
     "cast": [
-      "John Cena",
       "Hailee Steinfeld",
+      "John Cena",
       "Gracie Dzienny",
       "David Sobolov"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2016",
@@ -831,7 +819,7 @@
     "runtime": 107,
     "rating": 6.3,
     "source": "Central.Intelligence.2016.1080p.BluRay.x264-[YTS.AG]",
-    "description": "Calvin Joyner, a mild-mannered accountant whose high school glory days are long behind him, reconnects with an awkward pal from high school through Facebook. After meeting up, Calvin's mundane life takes an unexpectedly thrilling turn when he's thrust into the world of international espionage.",
+    "description": "Calvin Joyner, a mild-mannered accountant whose high school glory days are long behind him, reconnects with an awkward pal from high school through Facebook. After meeting up, Calvin’s mundane life takes an unexpectedly thrilling turn when he's thrust into the world of international espionage.",
     "categories": [
       "Action",
       "Comedy",
@@ -847,11 +835,13 @@
     ],
     "cast": [
       "Dwayne Johnson",
-      "Kevin Hart",
       "Tim Griffin",
+      "Kevin Hart",
       "Jason Bateman"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2000",
@@ -859,7 +849,7 @@
     "runtime": 84,
     "rating": 7.1,
     "source": "Chicken.Run.2000.1080p.BrRip.x264.Deceit.YIFY",
-    "description": "The creators of Wallace & Gromit bring you an exciting and original story about a group of chickens determined to fly the coop-even if they can't fly! It's hardly poultry in motion when Rocky attempts to teach Ginger and her feathered friends to fly…but, with teamwork, determination and a little bit o' cluck, the fearless flock plots one last attempt in a spectacular bid for freedom.",
+    "description": "The creators of Wallace &amp; Gromit bring you an exciting and original story about a group of chickens determined to fly the coop–even if they can’t fly! It’s hardly poultry in motion when Rocky attempts to teach Ginger and her feathered friends to fly…but, with teamwork, determination and a little bit o’ cluck, the fearless flock plots one last attempt in a spectacular bid for freedom.",
     "categories": [
       "Action",
       "Adventure",
@@ -878,11 +868,13 @@
     ],
     "cast": [
       "Bob Bergen",
-      "Mel Gibson",
       "Olivia Hack",
+      "Mel Gibson",
       "Danny Mann"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2023",
@@ -908,10 +900,12 @@
     "cast": [
       "Romesh Ranganathan",
       "David Bradley",
-      "Bella Ramsey",
-      "Jane Horrocks"
+      "Jane Horrocks",
+      "Bella Ramsey"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2015",
@@ -937,12 +931,48 @@
       "orphan"
     ],
     "cast": [
-      "Gerard Horan",
       "Lily James",
-      "Hayley Atwell",
-      "Rob Brydon"
+      "Gerard Horan",
+      "Rob Brydon",
+      "João Costa Menezes"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
+  },
+  {
+    "year": "2013",
+    "title": "Cloudy with a Chance of Meatballs 2",
+    "runtime": 95,
+    "rating": 6.3,
+    "source": "Cloudy.with.a.Chance.of.Meatballs.2.2013.1080p.BluRay.x264.YIFY",
+    "description": "After the disastrous food storm in the first film, Flint and his friends are forced to leave the town. Flint accepts the invitation from his idol Chester V to join The Live Corp Company, which has been tasked to clean the island, and where the best inventors in the world create technologies for the betterment of mankind. When Flint discovers that his machine still operates and now creates mutant food beasts like living pickles, hungry tacodiles, shrimpanzees and apple pie-thons, he and his friends must return to save the world.",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "tags": [
+      "meatballs",
+      "inventor",
+      "villain",
+      "sequel",
+      "food",
+      "scientist"
+    ],
+    "cast": [
+      "Scott Menville",
+      "Anna Faris",
+      "Neil Patrick Harris",
+      "Bill Hader"
+    ],
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2009",
@@ -973,49 +1003,19 @@
     "cast": [
       "Bob Bergen",
       "John Kassir",
-      "Andy Samberg",
-      "Michael Bell"
+      "Michael Bell",
+      "Danny Mann"
     ],
-    "subtitles": []
-  },
-  {
-    "year": "2013",
-    "title": "Cloudy with a Chance of Meatballs 2",
-    "runtime": 95,
-    "rating": 6.3,
-    "source": "Cloudy.with.a.Chance.of.Meatballs.2.2013.1080p.BluRay.x264.YIFY",
-    "description": "After the disastrous food storm in the first film, Flint and his friends are forced to leave the town. Flint accepts the invitation from his idol Chester V to join The Live Corp Company, which has been tasked to clean the island, and where the best inventors in the world create technologies for the betterment of mankind. When Flint discovers that his machine still operates and now creates mutant food beasts like living pickles, hungry tacodiles, shrimpanzees and apple pie-thons, he and his friends must return to save the world.",
-    "categories": [
-      "Action",
-      "Adventure",
-      "Animation",
-      "Comedy",
-      "Family",
-      "Fantasy",
-      "Sci-Fi"
-    ],
-    "tags": [
-      "meatballs",
-      "inventor",
-      "villain",
-      "sequel",
-      "food",
-      "scientist"
-    ],
-    "cast": [
-      "Andy Samberg",
-      "Anna Faris",
-      "James Caan",
-      "Scott Menville"
-    ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2011",
     "title": "Crazy, Stupid, Love.",
     "runtime": 118,
     "rating": 7.4,
-    "source": "Crazy.Stupid.Love2011.1080p.BluRay.x264.AAC5.1-[YTS.MX]",
+    "source": "Crazy.Stupid.Love.2011.1080p.BluRay.x264.AAC5.1-[YTS.MX]",
     "description": "Cal Weaver is living the American dream. He has a good job, a beautiful house, great children and a beautiful wife, named Emily. Cal's seemingly perfect life unravels, however, when he learns that Emily has been unfaithful and wants a divorce. Over 40 and suddenly single, Cal is adrift in the fickle world of dating. Enter, Jacob Palmer, a self-styled player who takes Cal under his wing and teaches him how to be a hit with the ladies.",
     "categories": [
       "Action",
@@ -1034,10 +1034,12 @@
     "cast": [
       "Karolina Wydra",
       "Joey King",
-      "Emma Stone",
-      "Kevin Bacon"
+      "Ryan Gosling",
+      "Analeigh Tipton"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2010",
@@ -1062,12 +1064,14 @@
       "new jersey"
     ],
     "cast": [
-      "Mark Wahlberg",
       "Will.i.am",
+      "Mark Wahlberg",
       "Jon Bernthal",
-      "Steve Carell"
+      "Mark Ruffalo"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2018",
@@ -1091,12 +1095,14 @@
       "mercenary"
     ],
     "cast": [
-      "Brad Pitt",
       "Matt Damon",
+      "Brad Pitt",
       "Nicholas Hoult",
-      "Evan Peters"
+      "Josh Brolin"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2016",
@@ -1126,7 +1132,9 @@
       "Paul Lazenby",
       "Morena Baccarin"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2013",
@@ -1155,11 +1163,13 @@
     ],
     "cast": [
       "Bob Bergen",
-      "Steve Carell",
+      "Miranda Cosgrove",
       "Terri Douglas",
       "John Kassir"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2010",
@@ -1188,11 +1198,13 @@
     ],
     "cast": [
       "Rob Huebel",
-      "Steve Carell",
+      "Miranda Cosgrove",
       "Mindy Kaling",
       "Terri Douglas"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2017",
@@ -1221,11 +1233,13 @@
     ],
     "cast": [
       "Bob Bergen",
-      "Steve Carell",
+      "Miranda Cosgrove",
       "John Kassir",
       "Danny Mann"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2010",
@@ -1233,7 +1247,7 @@
     "runtime": 92,
     "rating": 6.2,
     "source": "Diary.Of.A.Wimpy.Kid.2010.1080p.BluRay.x264.AAC5.1-[YTS.MX]",
-    "description": "Greg Heffley is headed for big things, but first he has to survive the scariest, most humiliating experience of any kid's life - middle school! That won't be easy, considering he's surrounded by hairy-freckled morons, wedgie-loving bullies and a moldy slice of cheese with nuclear cooties!",
+    "description": "Greg Heffley is headed for big things, but first he has to survive the scariest, most humiliating experience of any kid’s life – middle school! That won’t be easy, considering he’s surrounded by hairy-freckled morons, wedgie-loving bullies and a moldy slice of cheese with nuclear cooties!",
     "categories": [
       "Action",
       "Animation",
@@ -1252,38 +1266,12 @@
     "cast": [
       "Chloë Grace Moretz",
       "Alistair Abell",
-      "Steve Zahn",
-      "Devon Bostick"
+      "Devon Bostick",
+      "Gabrielle Rose"
     ],
-    "subtitles": []
-  },
-  {
-    "year": "2011",
-    "title": "Diary of a Wimpy Kid: Rodrick Rules",
-    "runtime": 99,
-    "rating": 6.6,
-    "source": "Diary.Of.A.Wimpy.Kid.Rodrick.Rules.2011.1080p.BluRay.x264-[YTS.AG]",
-    "description": "Wimpy Greg Heffley, now in seventh grade, thinks he has it all together. He has mastered middle school and gotten rid of the Cheese Touch. However, Greg's older brother, Rodrick, is itching to cut him down to size. He gets the perfect opportunity when their mother tries to force the boys to bond. Rodrick may be Greg's chief tormentor, but he feels his constant pranks are just what his little brother needs to prepare him for life's hard knocks.",
-    "categories": [
-      "Action",
-      "Animation",
-      "Comedy",
-      "Family"
-    ],
-    "tags": [
-      "older brother",
-      "based on novel or book",
-      "sibling rivalry",
-      "middle school",
-      "based on children's book"
-    ],
-    "cast": [
-      "Steve Zahn",
-      "John Shaw",
-      "Angela Moore",
-      "Devon Bostick"
-    ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2012",
@@ -1309,10 +1297,42 @@
     "cast": [
       "Frank C. Turner",
       "Emily Holmes",
-      "Steve Zahn",
-      "Reese Alexander"
+      "Reese Alexander",
+      "Jared Abrahamson"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
+  },
+  {
+    "year": "2011",
+    "title": "Diary of a Wimpy Kid: Rodrick Rules",
+    "runtime": 99,
+    "rating": 6.6,
+    "source": "Diary.Of.A.Wimpy.Kid.Rodrick.Rules.2011.1080p.BluRay.x264-[YTS.AG]",
+    "description": "Wimpy Greg Heffley, now in seventh grade, thinks he has it all together. He has mastered middle school and gotten rid of the Cheese Touch. However, Greg's older brother, Rodrick, is itching to cut him down to size. He gets the perfect opportunity when their mother tries to force the boys to bond. Rodrick may be Greg's chief tormentor, but he feels his constant pranks are just what his little brother needs to prepare him for life's hard knocks.",
+    "categories": [
+      "Action",
+      "Animation",
+      "Comedy",
+      "Family"
+    ],
+    "tags": [
+      "older brother",
+      "based on novel or book",
+      "sibling rivalry",
+      "middle school",
+      "based on children's book"
+    ],
+    "cast": [
+      "John Shaw",
+      "Angela Moore",
+      "Devon Bostick",
+      "Melissa Roxburgh"
+    ],
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2010",
@@ -1334,12 +1354,14 @@
       "duringcreditsstinger"
     ],
     "cast": [
-      "Steve Carell",
-      "Paul Rudd",
       "Andrea Savage",
-      "P.J. Byrne"
+      "P.J. Byrne",
+      "Steve Carell",
+      "Jeff Dunham"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2016",
@@ -1363,12 +1385,14 @@
       "sorcerer"
     ],
     "cast": [
-      "Benedict Cumberbatch",
+      "Benedict Wong",
       "Mads Mikkelsen",
-      "Tilda Swinton",
-      "Chris Hemsworth"
+      "Benedict Cumberbatch",
+      "Scott Adkins"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2014",
@@ -1398,11 +1422,13 @@
       "Joseph Long",
       "Gordon Bell"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2023",
-    "title": "Dungeons & Dragons: Honor Among Thieves",
+    "title": "Dungeons &amp; Dragons: Honor Among Thieves",
     "runtime": 134,
     "rating": 7.2,
     "source": "Dungeons.Dragons.Honor.Among.Thieves.2023.1080p.BluRay.x264.AAC5.1-[YTS.MX]",
@@ -1424,10 +1450,12 @@
     "cast": [
       "Jude Hill",
       "David Sobolov",
-      "Chris Pine",
-      "Claude Starling"
+      "Paul Bazely",
+      "Hugh Grant"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2010",
@@ -1452,11 +1480,13 @@
     ],
     "cast": [
       "Emma Stone",
-      "Stanley Tucci",
-      "Lisa Kudrow",
-      "Malcolm McDowell"
+      "Yolanda Snowball",
+      "Aly Michalka",
+      "Lalaine"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2004",
@@ -1484,7 +1514,9 @@
       "Jana Pallaske",
       "Nick Jameson"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2023",
@@ -1514,7 +1546,9 @@
       "Jason Momoa",
       "Helen Mirren"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2017",
@@ -1522,7 +1556,7 @@
     "runtime": 118,
     "rating": 4.6,
     "source": "Fifty.Shades.Darker.2017.1080p.BluRay.x264-[YTS.AG]",
-    "description": "When a wounded Christian Grey tries to entice a cautious Ana Steele back into his life, she demands a new arrangement before she will give him another chance. As the two begin to build trust and find stability, shadowy figures from Christian's past start to circle the couple, determined to destroy their hopes for a future together.",
+    "description": "When a wounded Christian Grey tries to entice a cautious Ana Steele back into his life, she demands a new arrangement before she will give him another chance. As the two begin to build trust and find stability, shadowy figures from Christian’s past start to circle the couple, determined to destroy their hopes for a future together.",
     "categories": [
       "Action",
       "Drama",
@@ -1544,7 +1578,9 @@
       "Carmel Amit",
       "Victor Rasuk"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2018",
@@ -1572,7 +1608,9 @@
       "Callum Keith Rennie",
       "Victor Rasuk"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2015",
@@ -1601,7 +1639,9 @@
       "Reese Alexander",
       "Victor Rasuk"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2021",
@@ -1629,10 +1669,12 @@
     "cast": [
       "Chris Evans",
       "Dwayne Johnson",
-      "Channing Tatum",
-      "Ryan Reynolds"
+      "Ryan Reynolds",
+      "Channing Tatum"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2023",
@@ -1655,11 +1697,13 @@
     ],
     "cast": [
       "John Cena",
-      "Christian Slater",
       "Alison Brie",
-      "Alice Eve"
+      "Alice Eve",
+      "Marton Csokas"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2011",
@@ -1683,11 +1727,13 @@
     ],
     "cast": [
       "Emma Stone",
-      "Woody Harrelson",
       "Mila Kunis",
-      "Andy Samberg"
+      "Woody Harrelson",
+      "Nolan Gould"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2013",
@@ -1695,7 +1741,7 @@
     "runtime": 102,
     "rating": 7.4,
     "source": "Frozen.2013.1080p.BluRay.x264.YIFY",
-    "description": "Young princess Anna of Arendelle dreams about finding true love at her sister Elsa's coronation. Fate takes her on a dangerous journey in an attempt to end the eternal winter that has fallen over the kingdom. She's accompanied by ice delivery man Kristoff, his reindeer Sven, and snowman Olaf. On an adventure where she will find out what friendship, courage, family, and true love really means.",
+    "description": "Young princess Anna of Arendelle dreams about finding true love at her sister Elsa’s coronation. Fate takes her on a dangerous journey in an attempt to end the eternal winter that has fallen over the kingdom. She's accompanied by ice delivery man Kristoff, his reindeer Sven, and snowman Olaf. On an adventure where she will find out what friendship, courage, family, and true love really means.",
     "categories": [
       "Action",
       "Adventure",
@@ -1714,12 +1760,14 @@
       "cartoon"
     ],
     "cast": [
-      "Frank Welker",
       "Terri Douglas",
       "Nick Jameson",
-      "Jesse Corti"
+      "Jesse Corti",
+      "Scott Menville"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2019",
@@ -1748,11 +1796,13 @@
     ],
     "cast": [
       "Terri Douglas",
-      "Alfred Molina",
       "Scott Menville",
-      "Ciarán Hinds"
+      "Jessica DiCicco",
+      "Grey Griffin"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2008",
@@ -1780,67 +1830,11 @@
       "Kevin Nealon",
       "Anne Hathaway",
       "Dwayne Johnson",
-      "Steve Carell"
+      "Geoff Pierson"
     ],
-    "subtitles": []
-  },
-  {
-    "year": "2017",
-    "title": "Guardians of the Galaxy Vol. 2",
-    "runtime": 136,
-    "rating": 7.6,
-    "source": "Guardians.Of.The.Galaxy.Vol..2.2017.1080p.BluRay.x264-[YTS.AG]",
-    "description": "The Guardians must fight to keep their newfound family together as they unravel the mysteries of Peter Quill's true parentage.",
-    "categories": [
-      "Action",
-      "Adventure",
-      "Comedy",
-      "Sci-Fi"
-    ],
-    "tags": [
-      "superhero",
-      "based on comic",
-      "sequel",
-      "misfit",
-      "space",
-      "aftercreditsstinger"
-    ],
-    "cast": [
-      "Vin Diesel",
-      "Sylvester Stallone",
-      "Jeff Goldblum",
-      "Chris Pratt"
-    ],
-    "subtitles": []
-  },
-  {
-    "year": "2023",
-    "title": "Guardians of the Galaxy Vol. 3",
-    "runtime": 150,
-    "rating": 7.9,
-    "source": "Guardians.Of.The.Galaxy.Vol3.2023.1080p.WEBRip.x264.AAC5.1-[YTS.MX]",
-    "description": "Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them.",
-    "categories": [
-      "Action",
-      "Adventure",
-      "Comedy",
-      "Sci-Fi"
-    ],
-    "tags": [
-      "hero",
-      "superhero",
-      "melancholy",
-      "mad scientist",
-      "based on comic",
-      "sequel"
-    ],
-    "cast": [
-      "Vin Diesel",
-      "Sylvester Stallone",
-      "Nathan Fillion",
-      "Linda Cardellini"
-    ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2014",
@@ -1867,9 +1861,73 @@
       "Vin Diesel",
       "Nathan Fillion",
       "Melia Kreiling",
-      "Chris Pratt"
+      "Josh Brolin"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
+  },
+  {
+    "year": "2017",
+    "title": "Guardians of the Galaxy Vol. 2",
+    "runtime": 136,
+    "rating": 7.6,
+    "source": "Guardians.Of.The.Galaxy.Vol..2.2017.1080p.BluRay.x264-[YTS.AG]",
+    "description": "The Guardians must fight to keep their newfound family together as they unravel the mysteries of Peter Quill's true parentage.",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "tags": [
+      "superhero",
+      "based on comic",
+      "sequel",
+      "misfit",
+      "space",
+      "aftercreditsstinger"
+    ],
+    "cast": [
+      "Vin Diesel",
+      "Sylvester Stallone",
+      "Chris Pratt",
+      "Zoe Saldana"
+    ],
+    "subtitles": [
+      "en"
+    ]
+  },
+  {
+    "year": "2023",
+    "title": "Guardians of the Galaxy Vol. 3",
+    "runtime": 150,
+    "rating": 7.9,
+    "source": "Guardians.Of.The.Galaxy.Vol3.2023.1080p.WEBRip.x264.AAC5.1-[YTS.MX]",
+    "description": "Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them.",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "tags": [
+      "hero",
+      "superhero",
+      "melancholy",
+      "mad scientist",
+      "based on comic",
+      "sequel"
+    ],
+    "cast": [
+      "Vin Diesel",
+      "Sylvester Stallone",
+      "Linda Cardellini",
+      "Nathan Fillion"
+    ],
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2011",
@@ -1893,15 +1951,17 @@
     ],
     "cast": [
       "Alexandra Daddario",
-      "Owen Wilson",
       "Derek Waters",
-      "Kathy Griffin"
+      "Kathy Griffin",
+      "Owen Wilson"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2004",
-    "title": "Harold & Kumar Go to White Castle",
+    "title": "Harold &amp; Kumar Go to White Castle",
     "runtime": 88,
     "rating": 7,
     "source": "Harold.Kumar.Go.To.White.Castle.2004.UNRATED.REPACK.1080p.BluRay.x264.AAC5.1-[YTS.MX]",
@@ -1922,10 +1982,12 @@
     "cast": [
       "Ryan Reynolds",
       "Jamie Kennedy",
-      "Eddie Kaye Thomas",
-      "Malin Akerman"
+      "Rob Tinkler",
+      "Neil Patrick Harris"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2014",
@@ -1951,9 +2013,11 @@
       "Rob Huebel",
       "Lindsay Sloane",
       "Suzy Nakamura",
-      "Jason Bateman"
+      "Jonathan Banks"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2011",
@@ -1977,11 +2041,13 @@
     ],
     "cast": [
       "Lindsay Sloane",
-      "Ryan Gosling",
+      "Colin Farrell",
       "Brian George",
-      "Jason Bateman"
+      "Ryan Gosling"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2015",
@@ -2005,12 +2071,14 @@
       "hot tub"
     ],
     "cast": [
-      "Christian Slater",
+      "Thomas Lennon",
       "Kellee Stewart",
-      "John Cusack",
-      "Adam Scott"
+      "Jessica Williams",
+      "Collette Wolfe"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2010",
@@ -2033,12 +2101,14 @@
       "one-night stand"
     ],
     "cast": [
-      "Sebastian Stan",
       "Eddie Murphy",
+      "Thomas Lennon",
       "Kellee Stewart",
-      "John Cusack"
+      "Robert Wu"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2002",
@@ -2046,7 +2116,7 @@
     "runtime": 81,
     "rating": 7.5,
     "source": "Ice.Age.2002.1080p.BluRay.x264-[YTS.AG]",
-    "description": "With the impending ice age almost upon them, a mismatched trio of prehistoric critters - Manny the woolly mammoth, Diego the saber-toothed tiger and Sid the giant sloth - find an orphaned infant and decide to return it to its human parents. Along the way, the unlikely allies become friends but, when enemies attack, their quest takes on far nobler aims.",
+    "description": "With the impending ice age almost upon them, a mismatched trio of prehistoric critters – Manny the woolly mammoth, Diego the saber-toothed tiger and Sid the giant sloth – find an orphaned infant and decide to return it to its human parents. Along the way, the unlikely allies become friends but, when enemies attack, their quest takes on far nobler aims.",
     "categories": [
       "Action",
       "Adventure",
@@ -2066,11 +2136,13 @@
     ],
     "cast": [
       "Bob Bergen",
-      "Jack Black",
       "John Kassir",
-      "Dann Fink"
+      "Dann Fink",
+      "Jack Black"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2012",
@@ -2099,11 +2171,13 @@
     ],
     "cast": [
       "Seann William Scott",
-      "Peter Dinklage",
       "Nicki Minaj",
-      "Simon Pegg"
+      "Keke Palmer",
+      "Peter Dinklage"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2006",
@@ -2130,12 +2204,14 @@
       "iceberg"
     ],
     "cast": [
-      "Seann William Scott",
       "Bob Bergen",
-      "Frank Welker",
-      "Stephen Root"
+      "Seann William Scott",
+      "Danny Mann",
+      "Carolyn Lawrence"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2010",
@@ -2166,7 +2242,9 @@
       "Cillian Murphy",
       "Michael Caine"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2018",
@@ -2174,7 +2252,7 @@
     "runtime": 118,
     "rating": 7.5,
     "source": "Incredibles.2.2018.1080p.BluRay.x264-[YTS.AM]",
-    "description": "Elastigirl springs into action to save the day, while Mr. Incredible faces his greatest challenge yet - taking care of the problems of his three children.",
+    "description": "Elastigirl springs into action to save the day, while Mr. Incredible faces his greatest challenge yet – taking care of the problems of his three children.",
     "categories": [
       "Action",
       "Adventure",
@@ -2195,11 +2273,13 @@
     ],
     "cast": [
       "Samuel L. Jackson",
-      "Bob Odenkirk",
       "Bob Bergen",
+      "Bob Odenkirk",
       "Jonathan Banks"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2014",
@@ -2226,10 +2306,12 @@
     "cast": [
       "Matt Damon",
       "Anne Hathaway",
-      "Jessica Chastain",
-      "John Lithgow"
+      "Andrew Borba",
+      "Michael Caine"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2010",
@@ -2237,7 +2319,7 @@
     "runtime": 124,
     "rating": 6.9,
     "source": "Iron.Man.2.2010.1080p.BrRip.x264.YIFY",
-    "description": "With the world now aware of his dual life as the armored superhero Iron Man, billionaire inventor Tony Stark faces pressure from the government, the press and the public to share his technology with the military. Unwilling to let go of his invention, Stark, with Pepper Potts and James 'Rhodey' Rhodes at his side, must forge new alliances - and confront powerful enemies.",
+    "description": "With the world now aware of his dual life as the armored superhero Iron Man, billionaire inventor Tony Stark faces pressure from the government, the press and the public to share his technology with the military. Unwilling to let go of his invention, Stark, with Pepper Potts and James 'Rhodey' Rhodes at his side, must forge new alliances – and confront powerful enemies.",
     "categories": [
       "Action",
       "Adventure",
@@ -2252,12 +2334,14 @@
       "technology"
     ],
     "cast": [
-      "Samuel L. Jackson",
       "Scarlett Johansson",
-      "Tim Guinee",
-      "Robert Downey Jr."
+      "Samuel L. Jackson",
+      "Robert Downey Jr.",
+      "Tim Guinee"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2008",
@@ -2281,11 +2365,13 @@
     ],
     "cast": [
       "Samuel L. Jackson",
-      "Tim Guinee",
       "Robert Downey Jr.",
-      "Paul Bettany"
+      "Tim Guinee",
+      "Bill Smitrovich"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2013",
@@ -2310,10 +2396,12 @@
     "cast": [
       "Jenna Ortega",
       "Bingbing Fan",
-      "Ben Kingsley",
-      "Robert Downey Jr."
+      "Robert Downey Jr.",
+      "Ben Kingsley"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2014",
@@ -2339,9 +2427,11 @@
       "Keanu Reeves",
       "Elizabeth Saint",
       "Ian McShane",
-      "Willem Dafoe"
+      "David Patrick Kelly"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2017",
@@ -2349,7 +2439,7 @@
     "runtime": 122,
     "rating": 7.4,
     "source": "John.Wick.Chapter.2.2017.1080p.BluRay.x264-[YTS.AG]",
-    "description": "John Wick is forced out of retirement by a former associate looking to seize control of a shadowy international assassins' guild. Bound by a blood oath to aid him, Wick travels to Rome and does battle against some of the world's most dangerous killers.",
+    "description": "John Wick is forced out of retirement by a former associate looking to seize control of a shadowy international assassins’ guild. Bound by a blood oath to aid him, Wick travels to Rome and does battle against some of the world’s most dangerous killers.",
     "categories": [
       "Action",
       "Crime",
@@ -2369,7 +2459,9 @@
       "Ian McShane",
       "David Patrick Kelly"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2019",
@@ -2377,7 +2469,7 @@
     "runtime": 130,
     "rating": 7.4,
     "source": "John.Wick.Chapter.3.-.Parabellum.2019.1080p.BluRay.x264-[YTS.LT]",
-    "description": "Super-assassin John Wick returns with a $14 million price tag on his head and an army of bounty-hunting killers on his trail. After killing a member of the shadowy international assassin's guild, the High Table, John Wick is excommunicado, but the world's most ruthless hit men and women await his every turn.",
+    "description": "Super-assassin John Wick returns with a $14 million price tag on his head and an army of bounty-hunting killers on his trail. After killing a member of the shadowy international assassin’s guild, the High Table, John Wick is excommunicado, but the world’s most ruthless hit men and women await his every turn.",
     "categories": [
       "Action",
       "Crime",
@@ -2394,39 +2486,13 @@
     ],
     "cast": [
       "Keanu Reeves",
-      "Halle Berry",
       "Ian McShane",
-      "Laurence Fishburne"
+      "Halle Berry",
+      "Jerome Flynn"
     ],
-    "subtitles": []
-  },
-  {
-    "year": "2023",
-    "title": "John Wick: Chapter 4",
-    "runtime": 169,
-    "rating": 7.6,
-    "source": "John.Wick.Chapter.4.2023.1080p.WEBRip.x264.AAC5.1-[YTS.MX]",
-    "description": "With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
-    "categories": [
-      "Action",
-      "Crime",
-      "Thriller"
-    ],
-    "tags": [
-      "new york city",
-      "martial arts",
-      "berlin, germany",
-      "hitman",
-      "sequel",
-      "organized crime"
-    ],
-    "cast": [
-      "Keanu Reeves",
-      "Donnie Yen",
-      "Clancy Brown",
-      "Ian McShane"
-    ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2019",
@@ -2434,7 +2500,7 @@
     "runtime": 123,
     "rating": 6.6,
     "source": "Jumanji.The.Next.Level.2019.1080p.BluRay.x264.AAC5.1-[YTS.MX]",
-    "description": "As the gang return to Jumanji to rescue one of their own, they discover that nothing is as they expect. The players will have to brave parts unknown and unexplored in order to escape the world's most dangerous game.",
+    "description": "As the gang return to Jumanji to rescue one of their own, they discover that nothing is as they expect. The players will have to brave parts unknown and unexplored in order to escape the world’s most dangerous game.",
     "categories": [
       "Action",
       "Adventure",
@@ -2450,12 +2516,14 @@
       "duringcreditsstinger"
     ],
     "cast": [
-      "Jack Black",
       "Dwayne Johnson",
+      "Jack Black",
       "Kevin Hart",
       "Colin Hanks"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2017",
@@ -2463,7 +2531,7 @@
     "runtime": 119,
     "rating": 7,
     "source": "Jumanji.Welcome.To.The.Jungle.2017.1080p.BluRay.x264-[YTS.AM]",
-    "description": "Four teenagers in detention discover an old video game console with a game they've never heard of. When they decide to play, they are immediately sucked into the jungle world of Jumanji in the bodies of their avatars. They'll have to complete the adventure of their lives filled with fun, thrills and danger or be stuck in the game forever!",
+    "description": "Four teenagers in detention discover an old video game console with a game they’ve never heard of. When they decide to play, they are immediately sucked into the jungle world of Jumanji in the bodies of their avatars. They’ll have to complete the adventure of their lives filled with fun, thrills and danger or be stuck in the game forever!",
     "categories": [
       "Action",
       "Adventure",
@@ -2479,12 +2547,14 @@
       "fighter"
     ],
     "cast": [
-      "Jack Black",
       "Dwayne Johnson",
-      "Kevin Hart",
-      "Marc Evan Jackson"
+      "Marc Evan Jackson",
+      "Rob Mars",
+      "Jack Black"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2025",
@@ -2492,7 +2562,7 @@
     "runtime": 94,
     "rating": 6.3,
     "source": "Karate.Kid.Legends.2025.1080p.WEBRip.x264.AAC5.1-[YTS.MX]",
-    "description": "After a family tragedy, kung fu prodigy Li Fong is uprooted from his home in Beijing and forced to move to New York City with his mother. When a new friend needs his help, Li enters a karate competition - but his skills alone aren't enough. Li's kung fu teacher Mr. Han enlists original Karate Kid Daniel LaRusso for help, and Li learns a new way to fight, merging their two styles into one for the ultimate martial arts showdown.",
+    "description": "After a family tragedy, kung fu prodigy Li Fong is uprooted from his home in Beijing and forced to move to New York City with his mother. When a new friend needs his help, Li enters a karate competition – but his skills alone aren't enough. Li's kung fu teacher Mr. Han enlists original Karate Kid Daniel LaRusso for help, and Li learns a new way to fight, merging their two styles into one for the ultimate martial arts showdown.",
     "categories": [
       "Action",
       "Drama",
@@ -2510,10 +2580,12 @@
     "cast": [
       "Jackie Chan",
       "Marcus Aurelio",
-      "Ming-Na Wen",
-      "Joshua Jackson"
+      "Joshua Jackson",
+      "Wyatt Oleff"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2016",
@@ -2521,7 +2593,7 @@
     "runtime": 105,
     "rating": 5.9,
     "source": "Keeping.Up.With.The.Joneses.2016.1080p.BluRay.x264-[YTS.AG]",
-    "description": "An ordinary suburban couple finds it's not easy keeping up with the Joneses - their impossibly gorgeous and ultra-sophisticated new neighbors - especially when they discover that Mr. and Mrs. “Jones” are covert operatives.",
+    "description": "An ordinary suburban couple finds it’s not easy keeping up with the Joneses – their impossibly gorgeous and ultra-sophisticated new neighbors – especially when they discover that Mr. and Mrs. “Jones” are covert operatives.",
     "categories": [
       "Action",
       "Comedy"
@@ -2533,12 +2605,14 @@
       "neighborhood"
     ],
     "cast": [
-      "Jon Hamm",
       "Isla Fisher",
-      "Zach Galifianakis",
-      "Darin Cooper"
+      "Gal Gadot",
+      "Darin Cooper",
+      "Marc Grapey"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2007",
@@ -2562,41 +2636,48 @@
       "paternity"
     ],
     "cast": [
+      "Tim Bagley",
+      "Joanna Kerns",
       "Steve Carell",
-      "Paul Rudd",
-      "Jessica Alba",
-      "Tim Bagley"
+      "Paul Rudd"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2008",
-    "title": "Kung Fu Panda: Secrets of the Furious Five",
-    "runtime": 744,
-    "rating": 7,
+    "title": "Kung Fu Panda",
+    "runtime": 92,
+    "rating": 7.6,
     "source": "Kung.Fu.Panda.2008.1080p.BluRay.x264-[YTS.AG]",
-    "description": "Ordered to teach a martial arts class of rambunctious bunny kittens, Po tells stories of each of the Furious Five's pasts.",
+    "description": "When the Valley of Peace is threatened, lazy Po the panda discovers his destiny as the \"chosen one\" and trains to become a kung fu hero, but transforming the unsleek slacker into a brave warrior won't be easy. It's up to Master Shifu and the Furious Five -- Tigress, Crane, Mantis, Viper and Monkey -- to give it a try.",
     "categories": [
       "Action",
+      "Adventure",
       "Animation",
       "Comedy",
-      "Family"
+      "Family",
+      "Fantasy",
+      "Thriller"
     ],
     "tags": [
+      "ancient china",
       "martial arts",
       "kung fu",
-      "panda",
-      "anthropomorphism",
-      "fighting",
-      "animals"
+      "strong woman",
+      "china",
+      "tiger"
     ],
     "cast": [
-      "Jack Black",
-      "Meredith Scott Lynn",
-      "Jessica DiCicco",
-      "John DiMaggio"
+      "Jackie Chan",
+      "Angelina Jolie",
+      "Lucy Liu",
+      "Ian McShane"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2010",
@@ -2623,9 +2704,11 @@
       "Rob Huebel",
       "Sarah Burns",
       "Andrew Daly",
-      "Christina Hendricks"
+      "Hayes MacArthur"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2005",
@@ -2652,11 +2735,13 @@
     ],
     "cast": [
       "Bob Bergen",
-      "Ben Stiller",
       "Michael Bell",
-      "Danny Mann"
+      "Danny Mann",
+      "Devika Parikh"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2012",
@@ -2681,12 +2766,14 @@
       "hippopotamus"
     ],
     "cast": [
-      "Frank Welker",
       "Jessica Chastain",
-      "Ben Stiller",
-      "Bryan Cranston"
+      "Danny Jacobs",
+      "John DiMaggio",
+      "Ben Stiller"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2008",
@@ -2712,11 +2799,13 @@
     ],
     "cast": [
       "Will.i.am",
-      "Ben Stiller",
-      "Alec Baldwin",
-      "Danny Jacobs"
+      "Danny Jacobs",
+      "John DiMaggio",
+      "David P. Smith"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2004",
@@ -2741,9 +2830,11 @@
       "Amanda Seyfried",
       "Jonathan Bennett",
       "Rachel McAdams",
-      "Lacey Chabert"
+      "Diego Klattenhoff"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2023",
@@ -2773,7 +2864,9 @@
       "Whoopie Van Raam",
       "Richard Glover"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2010",
@@ -2792,11 +2885,13 @@
     ],
     "cast": [
       "Robin Jones",
+      "Molinee Green",
       "Christine Nguyen",
-      "Rebecca Reynolds",
-      "Jamie Bernadette"
+      "Rebecca Reynolds"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2015",
@@ -2825,10 +2920,12 @@
     "cast": [
       "Bob Bergen",
       "Sandra Bullock",
-      "Steve Carell",
-      "Jon Hamm"
+      "Jennifer Saunders",
+      "Terri Douglas"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2022",
@@ -2855,11 +2952,13 @@
     ],
     "cast": [
       "Bob Bergen",
-      "Steve Carell",
       "Jean-Claude Van Damme",
-      "Terri Douglas"
+      "Terri Douglas",
+      "Steve Carell"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2009",
@@ -2887,7 +2986,9 @@
       "Bonita Friedericy",
       "Chris Gann"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2016",
@@ -2917,10 +3018,12 @@
     "cast": [
       "Dwayne Johnson",
       "Phillipa Soo",
-      "Alan Tudyk",
-      "Auli'i Cravalho"
+      "Auli'i Cravalho",
+      "Rachel House"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2001",
@@ -2949,10 +3052,12 @@
     "cast": [
       "Bob Bergen",
       "Steve Buscemi",
-      "Frank Welker",
-      "John Goodman"
+      "Michael Bell",
+      "Danny Mann"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2013",
@@ -2981,16 +3086,18 @@
       "dormitory"
     ],
     "cast": [
-      "Helen Mirren",
-      "Nathan Fillion",
       "Bob Bergen",
-      "Steve Buscemi"
+      "Aubrey Plaza",
+      "Nathan Fillion",
+      "Bobby Moynihan"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2014",
-    "title": "Mr. Peabody & Sherman",
+    "title": "Mr. Peabody &amp; Sherman",
     "runtime": 92,
     "rating": 6.7,
     "source": "Mr..Peabody.and.Sherman.2014.1080p.BluRay.x264.YIFY",
@@ -3015,39 +3122,43 @@
       "time travel"
     ],
     "cast": [
-      "Stanley Tucci",
+      "Thomas Lennon",
       "Scott Menville",
-      "Allison Janney",
-      "Leslie Mann"
+      "Al Rodrigo",
+      "Robert Ben Garant"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
-    "year": "2014",
-    "title": "Neighbors",
-    "runtime": 97,
-    "rating": 6.3,
-    "source": "Neighbors.2014.1080p.BluRay.x264.YIFY",
-    "description": "A couple with a newborn baby face unexpected difficulties after they are forced to live next to a fraternity house.",
+    "year": "2016",
+    "title": "Neighbors 2: Sorority Rising",
+    "runtime": 92,
+    "rating": 5.7,
+    "source": "Neighbors.2.Sorority.Rising.2016.1080p.BluRay.x264-[YTS.AG]",
+    "description": "A sorority moves in next door to the home of Mac and Kelly Radner who have a young child. The Radner's enlist their former nemeses from the fraternity to help battle the raucous sisters.",
     "categories": [
       "Action",
       "Comedy"
     ],
     "tags": [
       "alcohol",
-      "baby",
-      "routine",
-      "house party",
-      "parenting",
+      "college",
+      "sequel",
+      "sorority",
+      "neighbor",
       "family"
     ],
     "cast": [
-      "Steve Carell",
-      "Zac Efron",
-      "Rose Byrne",
-      "Seth Rogen"
+      "Kyle Mooney",
+      "John Early",
+      "Chloë Grace Moretz",
+      "Billy Eichner"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2023",
@@ -3071,11 +3182,13 @@
     ],
     "cast": [
       "Kyle Mooney",
-      "Jennifer Lawrence",
       "Scott MacArthur",
+      "Jennifer Lawrence",
       "Hasan Minhaj"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2011",
@@ -3098,12 +3211,14 @@
       "open relationship"
     ],
     "cast": [
-      "Natalie Portman",
       "Mindy Kaling",
+      "Natalie Portman",
       "Ophelia Lovibond",
       "Seth Morris"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2025",
@@ -3130,9 +3245,11 @@
       "Paisley Cadorath",
       "Bob Odenkirk",
       "Connie Nielsen",
-      "Sharon Stone"
+      "Christopher Lloyd"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2003",
@@ -3154,15 +3271,17 @@
       "fraternity"
     ],
     "cast": [
-      "Seann William Scott",
-      "Roger Jackson",
       "Elisha Cuthbert",
+      "Roger Jackson",
+      "Seann William Scott",
       "Sarah Shahi"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
-    "year": "2021",
+    "year": "2021 <a href=\"https://yts.mx/browse-movies/0/all/all/0/latest/0/fr\" title=\"French YIFY Movies\"><span style=\"color: #ACD7DE; font-size: 75%;\">[FRENCH]</span></a>",
     "title": "Pil's Adventures",
     "runtime": 88,
     "rating": 6.1,
@@ -3185,35 +3304,9 @@
       "Eleanor Noble",
       "Richard Dumont"
     ],
-    "subtitles": []
-  },
-  {
-    "year": "2017",
-    "title": "Pirates of the Caribbean: Dead Men Tell No Tales",
-    "runtime": 129,
-    "rating": 6.5,
-    "source": "Pirates.Of.The.Caribbean.Dead.Men.Tell.No.Tales.2017.1080p.BluRay.x264-[YTS.AG]",
-    "description": "Thrust into an all-new adventure, a down-on-his-luck Capt. Jack Sparrow feels the winds of ill-fortune blowing even more strongly when deadly ghost sailors led by his old nemesis, the evil Capt. Salazar, escape from the Devil's Triangle. Jack's only hope of survival lies in seeking out the legendary Trident of Poseidon, but to find it, he must forge an uneasy alliance with a brilliant and beautiful astronomer and a headstrong young man in the British navy.",
-    "categories": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "tags": [
-      "sea",
-      "ship",
-      "treasure map",
-      "sequel",
-      "artifact",
-      "pirate"
-    ],
-    "cast": [
-      "Jacob Elordi",
-      "Johnny Depp",
-      "Javier Bardem",
-      "Keira Knightley"
-    ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2007",
@@ -3238,11 +3331,13 @@
     ],
     "cast": [
       "Johnny Depp",
-      "Jonathan Pryce",
-      "Keira Knightley",
-      "Jonny Rees"
+      "Jonny Rees",
+      "Omid Djalili",
+      "Jonathan Pryce"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2003",
@@ -3266,11 +3361,13 @@
     ],
     "cast": [
       "Johnny Depp",
-      "Jonathan Pryce",
+      "Jonny Rees",
       "Zoe Saldana",
-      "Keira Knightley"
+      "Jonathan Pryce"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2006",
@@ -3297,11 +3394,43 @@
     ],
     "cast": [
       "Johnny Depp",
+      "Max Baker",
       "Jonathan Pryce",
-      "Keira Knightley",
-      "Bill Nighy"
+      "Keira Knightley"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
+  },
+  {
+    "year": "2017",
+    "title": "Pirates of the Caribbean: Dead Men Tell No Tales",
+    "runtime": 129,
+    "rating": 6.5,
+    "source": "Pirates.Of.The.Caribbean.Dead.Men.Tell.No.Tales.2017.1080p.BluRay.x264-[YTS.AG]",
+    "description": "Thrust into an all-new adventure, a down-on-his-luck Capt. Jack Sparrow feels the winds of ill-fortune blowing even more strongly when deadly ghost sailors led by his old nemesis, the evil Capt. Salazar, escape from the Devil's Triangle. Jack's only hope of survival lies in seeking out the legendary Trident of Poseidon, but to find it, he must forge an uneasy alliance with a brilliant and beautiful astronomer and a headstrong young man in the British navy.",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "tags": [
+      "sea",
+      "ship",
+      "treasure map",
+      "sequel",
+      "artifact",
+      "pirate"
+    ],
+    "cast": [
+      "Johnny Depp",
+      "Jacob Elordi",
+      "Javier Bardem",
+      "Golshifteh Farahani"
+    ],
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2011",
@@ -3327,9 +3456,11 @@
       "Johnny Depp",
       "Ian McShane",
       "Jonny Rees",
-      "Sam Claflin"
+      "Christopher Fairbank"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2011",
@@ -3359,10 +3490,12 @@
     "cast": [
       "Salma Hayek",
       "Jossara Jinaro",
-      "Antonio Banderas",
-      "Billy Bob Thornton"
+      "Billy Bob Thornton",
+      "Antonio Banderas"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2022",
@@ -3391,11 +3524,13 @@
     ],
     "cast": [
       "Florence Pugh",
-      "Olivia Colman",
       "John Mulaney",
-      "Salma Hayek"
+      "Salma Hayek",
+      "Olivia Colman"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2013",
@@ -3421,12 +3556,14 @@
       "police operation"
     ],
     "cast": [
-      "Kevin Bacon",
       "Ryan Reynolds",
+      "Kevin Bacon",
       "Mike O'Malley",
-      "Robert Knepper"
+      "Chris Palermo"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2021",
@@ -3454,9 +3591,11 @@
       "Dwayne Johnson",
       "Ryan Reynolds",
       "Gal Gadot",
-      "Ethan Herschenfeld"
+      "Ed Sheeran"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2016",
@@ -3479,12 +3618,14 @@
       "police officer"
     ],
     "cast": [
-      "Kevin Hart",
       "Dwyane Wade",
       "Carlos Gómez",
-      "Glen Powell"
+      "Kevin Hart",
+      "Robert Pralgo"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2014",
@@ -3508,12 +3649,74 @@
       "duringcreditsstinger"
     ],
     "cast": [
-      "Kevin Hart",
       "Jay Pharoah",
-      "Laurence Fishburne",
-      "John Leguizamo"
+      "Kevin Hart",
+      "Bruce McGill",
+      "David Banner"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
+  },
+  {
+    "year": "2001",
+    "title": "Scary Movie 2",
+    "runtime": 82,
+    "rating": 5.4,
+    "source": "Scary.Movie.2.2001.1080p.BluRay.x264.AAC5.1-[YTS.MX]",
+    "description": "While the original parodied slasher flicks like Scream, Keenen Ivory Wayans's sequel to Scary Movie takes comedic aim at haunted house movies. A group of students visit a mansion called \"Hell House,\" and murderous high jinks ensue.",
+    "categories": [
+      "Action",
+      "Comedy",
+      "Horror"
+    ],
+    "tags": [
+      "exorcism",
+      "haunted house",
+      "parody",
+      "spoof",
+      "horror spoof",
+      "secret door"
+    ],
+    "cast": [
+      "Shawn Wayans",
+      "Richard Moll",
+      "Marlon Wayans",
+      "Christopher Masterson"
+    ],
+    "subtitles": [
+      "en"
+    ]
+  },
+  {
+    "year": "2000",
+    "title": "Scary Movie",
+    "runtime": 88,
+    "rating": 6.3,
+    "source": "Scary.Movie.2000.1080p.BluRay.x264.AAC5.1-[YTS.MX]",
+    "description": "A familiar-looking group of teenagers find themselves being stalked by a more-than-vaguely recognizable masked killer! As the victims begin to pile up and the laughs pile on, none of your favorite scary movies escape the razor-sharp satire of this outrageously funny parody!",
+    "categories": [
+      "Action",
+      "Comedy",
+      "Mystery"
+    ],
+    "tags": [
+      "high school",
+      "psychopath",
+      "garage",
+      "satire",
+      "parody",
+      "crude humor"
+    ],
+    "cast": [
+      "Shawn Wayans",
+      "Rick Ducommun",
+      "James Van Der Beek",
+      "Marlon Wayans"
+    ],
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2013",
@@ -3541,63 +3744,9 @@
       "Darrell Hammond",
       "Jwaundace Candece"
     ],
-    "subtitles": []
-  },
-  {
-    "year": "2001",
-    "title": "Scary Movie 2",
-    "runtime": 82,
-    "rating": 5.4,
-    "source": "Scary.Movie.2.2001.1080p.BluRay.x264.AAC5.1-[YTS.MX]",
-    "description": "While the original parodied slasher flicks like Scream, Keenen Ivory Wayans's sequel to Scary Movie takes comedic aim at haunted house movies. A group of students visit a mansion called \"Hell House,\" and murderous high jinks ensue.",
-    "categories": [
-      "Action",
-      "Comedy",
-      "Horror"
-    ],
-    "tags": [
-      "exorcism",
-      "haunted house",
-      "parody",
-      "spoof",
-      "horror spoof",
-      "secret door"
-    ],
-    "cast": [
-      "Shawn Wayans",
-      "Richard Moll",
-      "Tim Curry",
-      "Anna Faris"
-    ],
-    "subtitles": []
-  },
-  {
-    "year": "2000",
-    "title": "Scary Movie",
-    "runtime": 88,
-    "rating": 6.3,
-    "source": "Scary.Movie.2000.1080p.BluRay.x264.AAC5.1-[YTS.MX]",
-    "description": "A familiar-looking group of teenagers find themselves being stalked by a more-than-vaguely recognizable masked killer! As the victims begin to pile up and the laughs pile on, none of your favorite scary movies escape the razor-sharp satire of this outrageously funny parody!",
-    "categories": [
-      "Action",
-      "Comedy",
-      "Mystery"
-    ],
-    "tags": [
-      "high school",
-      "psychopath",
-      "garage",
-      "satire",
-      "parody",
-      "crude humor"
-    ],
-    "cast": [
-      "Shawn Wayans",
-      "Anna Faris",
-      "James Van Der Beek",
-      "Marlon Wayans"
-    ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2003",
@@ -3621,11 +3770,13 @@
     ],
     "cast": [
       "Frank C. Turner",
-      "Pamela Anderson",
-      "Kevin Hart",
-      "Ja Rule"
+      "Charlie Sheen",
+      "Ja Rule",
+      "D.L. Hughley"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2006",
@@ -3648,12 +3799,14 @@
       "crude humor"
     ],
     "cast": [
+      "Charlie Sheen",
       "Tomoko Sato",
-      "Kevin Hart",
       "Leslie Nielsen",
-      "Charlie Sheen"
+      "Kevin Hart"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2002",
@@ -3678,11 +3831,13 @@
     ],
     "cast": [
       "James Spader",
-      "Sabrina Grdevich",
       "Osgood Perkins",
+      "Sabrina Grdevich",
       "Maggie Gyllenhaal"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2008",
@@ -3707,11 +3862,13 @@
     ],
     "cast": [
       "James Marsden",
-      "Seth Green",
       "Scott Klace",
-      "Giovanni Rodriguez"
+      "Giovanni Rodriguez",
+      "Seth Green"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2014",
@@ -3719,7 +3876,7 @@
     "runtime": 94,
     "rating": 5.1,
     "source": "Sex.Tape.2014.1080p.BluRay.x264.YIFY",
-    "description": "When Jay and Annie first got together, their romantic connection was intense - but ten years and two kids later, the flame of their love needs a spark.  To kick things up a notch, they decide - why not? - to make a video of themselves trying out every position in The Joy of Sex in one marathon three-hour session.  It seems like a great idea - until they discover that their most private video is no longer private.  With their reputations on the line, they know they're just one click away from being laid bare to the world... but as their race to reclaim their video leads to a night they'll never forget, they'll find that their video will expose even more than they bargained for.",
+    "description": "When Jay and Annie first got together, their romantic connection was intense – but ten years and two kids later, the flame of their love needs a spark.  To kick things up a notch, they decide – why not? – to make a video of themselves trying out every position in The Joy of Sex in one marathon three-hour session.  It seems like a great idea – until they discover that their most private video is no longer private.  With their reputations on the line, they know they’re just one click away from being laid bare to the world... but as their race to reclaim their video leads to a night they'll never forget, they'll find that their video will expose even more than they bargained for.",
     "categories": [
       "Action",
       "Comedy",
@@ -3733,12 +3890,14 @@
       "sex tape"
     ],
     "cast": [
-      "Jack Black",
       "Nancy Lenehan",
+      "Jack Black",
       "Artemis Pebdani",
-      "Cameron Diaz"
+      "Nat Faxon"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2010",
@@ -3764,9 +3923,11 @@
       "Lindsay Sloane",
       "Krysten Ritter",
       "Andrew Daly",
-      "Alice Eve"
+      "Hayes MacArthur"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2004",
@@ -3795,10 +3956,12 @@
     "cast": [
       "Bob Bergen",
       "Larry King",
-      "Marcelo Tubert",
-      "Jennifer Saunders"
+      "Eddie Murphy",
+      "Marcelo Tubert"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2001",
@@ -3826,11 +3989,13 @@
     ],
     "cast": [
       "Bob Bergen",
-      "Frank Welker",
-      "John Lithgow",
-      "Hal Smith"
+      "Eddie Murphy",
+      "Hal Smith",
+      "John Kassir"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2010",
@@ -3857,11 +4022,13 @@
     ],
     "cast": [
       "Larry King",
-      "Frank Welker",
+      "Eddie Murphy",
       "Mary Kay Place",
-      "Jon Hamm"
+      "Kathy Griffin"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2007",
@@ -3869,7 +4036,7 @@
     "runtime": 93,
     "rating": 6.1,
     "source": "Shrek.The.Third.2007.1080p.HDDVD.x264.YIFY",
-    "description": "The King of Far Far Away has died and Shrek and Fiona are to become King & Queen. However, Shrek wants to return to his cozy swamp and live in peace and quiet, so when he finds out there is another heir to the throne, they set off to bring him back to rule the kingdom.",
+    "description": "The King of Far Far Away has died and Shrek and Fiona are to become King &amp; Queen. However, Shrek wants to return to his cozy swamp and live in peace and quiet, so when he finds out there is another heir to the throne, they set off to bring him back to rule the kingdom.",
     "categories": [
       "Action",
       "Adventure",
@@ -3890,10 +4057,12 @@
     "cast": [
       "Bob Bergen",
       "Larry King",
-      "Frank Welker",
+      "Eddie Murphy",
       "Daran Norris"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2010",
@@ -3917,12 +4086,14 @@
       "conspiracy theory"
     ],
     "cast": [
-      "Ben Kingsley",
       "Leonardo DiCaprio",
-      "Christopher Denham",
-      "Mark Ruffalo"
+      "Ben Kingsley",
+      "Mark Ruffalo",
+      "Christopher Denham"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "1984",
@@ -3946,9 +4117,9 @@
     ],
     "cast": [
       "Paul Dooley",
-      "John Cusack",
-      "Joan Cusack",
-      "Tony Longo"
+      "Tony Longo",
+      "Molly Ringwald",
+      "Anthony Michael Hall"
     ],
     "subtitles": []
   },
@@ -3977,9 +4148,11 @@
       "Billy Eichner",
       "Andrea Savage",
       "Alison Brie",
-      "Adam Brody"
+      "Michael Cyril Creighton"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2022",
@@ -4006,12 +4179,14 @@
       "hedgehog"
     ],
     "cast": [
-      "Idris Elba",
       "Jim Carrey",
       "Scott Patey",
-      "Paul Lazenby"
+      "Paul Lazenby",
+      "Idris Elba"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2020",
@@ -4019,7 +4194,7 @@
     "runtime": 98,
     "rating": 6.5,
     "source": "Sonic.The.Hedgehog.2020.1080p.BluRay.x264.AAC5.1-[YTS.MX]",
-    "description": "Powered with incredible speed, Sonic The Hedgehog embraces his new home on Earth. That is, until Sonic sparks the attention of super-uncool evil genius Dr. Robotnik. Now it's super-villain vs. super-sonic in an all-out race across the globe to stop Robotnik from using Sonic's unique power for world domination.",
+    "description": "Powered with incredible speed, Sonic The Hedgehog embraces his new home on Earth. That is, until Sonic sparks the attention of super-uncool evil genius Dr. Robotnik. Now it’s super-villain vs. super-sonic in an all-out race across the globe to stop Robotnik from using Sonic’s unique power for world domination.",
     "categories": [
       "Action",
       "Adventure",
@@ -4043,7 +4218,9 @@
       "Scott Patey",
       "Neal McDonough"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2015",
@@ -4067,11 +4244,13 @@
     ],
     "cast": [
       "Jason Statham",
-      "Jude Law",
       "Zach Woods",
-      "Rose Byrne"
+      "Morena Baccarin",
+      "Sam Richardson"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2010",
@@ -4100,11 +4279,13 @@
     ],
     "cast": [
       "Bob Bergen",
-      "Frank Welker",
       "M.C. Gainey",
-      "Terri Douglas"
+      "Terri Douglas",
+      "Michael Bell"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2015",
@@ -4128,12 +4309,14 @@
       "aftercreditsstinger"
     ],
     "cast": [
-      "Liam Neeson",
       "Morgan Freeman",
+      "Liam Neeson",
       "Mark Wahlberg",
-      "Amanda Seyfried"
+      "Bobby Moynihan"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2012",
@@ -4161,9 +4344,11 @@
       "Mark Wahlberg",
       "Bill Smitrovich",
       "Ryan Reynolds",
-      "Tom Kenny"
+      "Mila Kunis"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2023",
@@ -4192,11 +4377,13 @@
     ],
     "cast": [
       "Jackie Chan",
-      "John Cena",
       "Natasia Demetriou",
-      "Paul Rudd"
+      "John Cena",
+      "Rose Byrne"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2020",
@@ -4222,10 +4409,12 @@
     "cast": [
       "Michael Caine",
       "Robert Pattinson",
-      "Elizabeth Debicki",
-      "Himesh Patel"
+      "Himesh Patel",
+      "Elizabeth Debicki"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2005",
@@ -4248,12 +4437,14 @@
       "poker game"
     ],
     "cast": [
-      "Kevin Hart",
-      "Steve Carell",
       "Mindy Kaling",
-      "Paul Rudd"
+      "Suzy Nakamura",
+      "Kevin Hart",
+      "Steve Carell"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2010",
@@ -4261,7 +4452,7 @@
     "runtime": 117,
     "rating": 6.7,
     "source": "The.A.Team.EXTENDED.2010.1080p.BrRip.x264.YIFY",
-    "description": "A man who loves when a plan comes together, Col. Hannibal Smith leads a close-knit team of elite operatives and Iraq War veterans. Framed for a crime they didn't commit, Smith and his men, Capt. H.M. ‘Howling Mad' Murdock , Sgt. Bosco ‘B.A.' Baracus, and Lt. Templeton ‘Faceman' Peck, break out and go rogue, using their special talents to clear their names and find the perpetrator. Hot on their trail is Capt. Charissa Sosa, who was once involved with a member of Smith's team and has sworn to capture them, no matter what it takes.",
+    "description": "A man who loves when a plan comes together, Col. Hannibal Smith leads a close-knit team of elite operatives and Iraq War veterans. Framed for a crime they didn't commit, Smith and his men, Capt. H.M. ‘Howling Mad’ Murdock , Sgt. Bosco ‘B.A.’ Baracus, and Lt. Templeton ‘Faceman’ Peck, break out and go rogue, using their special talents to clear their names and find the perpetrator. Hot on their trail is Capt. Charissa Sosa, who was once involved with a member of Smith's team and has sworn to capture them, no matter what it takes.",
     "categories": [
       "Action",
       "Adventure",
@@ -4279,11 +4470,13 @@
     ],
     "cast": [
       "Liam Neeson",
-      "Jon Hamm",
       "Brian Bloom",
-      "Patrick Wilson"
+      "Patrick Wilson",
+      "Jessica Biel"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2022",
@@ -4308,12 +4501,14 @@
       "superhero"
     ],
     "cast": [
+      "Colin Farrell",
       "Robert Pattinson",
       "Con O'Neill",
-      "Todd Boyce",
-      "Jeffrey Wright"
+      "Todd Boyce"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2017",
@@ -4341,10 +4536,12 @@
     "cast": [
       "Steve Buscemi",
       "Jimmy Kimmel",
-      "Tobey Maguire",
-      "Alec Baldwin"
+      "Tom McGrath",
+      "Tobey Maguire"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2011",
@@ -4352,7 +4549,7 @@
     "runtime": 112,
     "rating": 6.3,
     "source": "The.Change-Up.2011.1080p.BluRay.x264.AAC5.1-[YTS.MX]",
-    "description": "Lifelong friends Dave and Mitch are envious of the other's life. Mitch thinks Dave has it all: a beautiful, loving family and a high-paying job at a prestigious law firm. But Dave thinks Mitch's stress-free playboy life without obligation or consequence is the real dream come true. One fateful drunken night, they both admit that they wish they had the other's life while peeing in a fountain when lightning strikes. The next morning, they wake up, hungover, in each other's bodies! With time not on their side, Mitch and Dave comically struggle to avoid completely destroying each other's lives before they can find a way to get their old ones back.",
+    "description": "Lifelong friends Dave and Mitch are envious of the other's life. Mitch thinks Dave has it all: a beautiful, loving family and a high-paying job at a prestigious law firm. But Dave thinks Mitch’s stress-free playboy life without obligation or consequence is the real dream come true. One fateful drunken night, they both admit that they wish they had the other’s life while peeing in a fountain when lightning strikes. The next morning, they wake up, hungover, in each other’s bodies! With time not on their side, Mitch and Dave comically struggle to avoid completely destroying each other’s lives before they can find a way to get their old ones back.",
     "categories": [
       "Action",
       "Comedy",
@@ -4369,10 +4566,12 @@
     "cast": [
       "Roger Jackson",
       "Ryan Reynolds",
-      "Jason Bateman",
-      "Gregory Itzin"
+      "Gregory Itzin",
+      "Timothy J. Richardson"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2013",
@@ -4380,7 +4579,7 @@
     "runtime": 93,
     "rating": 5.7,
     "source": "The.English.Teacher.2013.1080p.BluRay.x264.YIFY",
-    "description": "Small-town Pennsylvania schoolteacher Linda Sinclair balances her staid home life with an incredible passion for her subject. Then a former star pupil reenters her life after failing as a playwright in New York City. Seeing in his script the inspiration that she has always longed to instill in her students, this dyed-in-the-wool romantic enlists the help of long-suffering drama teacher Carl to mount the work as the high school's next and riskiest production.",
+    "description": "Small-town Pennsylvania schoolteacher Linda Sinclair balances her staid home life with an incredible passion for her subject. Then a former star pupil reenters her life after failing as a playwright in New York City. Seeing in his script the inspiration that she has always longed to instill in her students, this dyed-in-the-wool romantic enlists the help of long-suffering drama teacher Carl to mount the work as the high school’s next and riskiest production.",
     "categories": [
       "Action",
       "Comedy",
@@ -4396,11 +4595,13 @@
     ],
     "cast": [
       "Charlie Saxton",
-      "Julianne Moore",
       "Norbert Leo Butz",
+      "Julianne Moore",
       "John Hodgman"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2024",
@@ -4424,10 +4625,10 @@
       "movie industry"
     ],
     "cast": [
-      "Emily Blunt",
       "Jason Momoa",
+      "Emily Blunt",
       "Ryan Gosling",
-      "Aaron Taylor-Johnson"
+      "Hannah Waddingham"
     ],
     "subtitles": []
   },
@@ -4437,7 +4638,7 @@
     "runtime": 100,
     "rating": 7.7,
     "source": "The.Hangover.2009.1080p.BluRay.x264.AAC5.1-[YTS.MX]",
-    "description": "When three friends finally come to after a raucous night of bachelor-party revelry, they find a baby in the closet and a tiger in the bathroom. But they can't seem to locate their best friend, Doug - who's supposed to be tying the knot. Launching a frantic search for Doug, the trio perseveres through a nasty hangover to try to make it to the church on time.",
+    "description": "When three friends finally come to after a raucous night of bachelor-party revelry, they find a baby in the closet and a tiger in the bathroom. But they can't seem to locate their best friend, Doug – who's supposed to be tying the knot. Launching a frantic search for Doug, the trio perseveres through a nasty hangover to try to make it to the church on time.",
     "categories": [
       "Action",
       "Comedy"
@@ -4453,10 +4654,12 @@
     "cast": [
       "Mike Epps",
       "Wayne Newton",
-      "Zach Galifianakis",
-      "Scott 'Carrot Top' Thompson"
+      "Scott 'Carrot Top' Thompson",
+      "Zach Galifianakis"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2011",
@@ -4479,12 +4682,14 @@
       "undercover cop"
     ],
     "cast": [
-      "Paul Giamatti",
       "Zach Galifianakis",
-      "Ken Jeong",
-      "Jeffrey Tambor"
+      "Jeffrey Tambor",
+      "Sondra Currie",
+      "Gillian Vigman"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2013",
@@ -4512,11 +4717,13 @@
     ],
     "cast": [
       "Mike Epps",
-      "John Goodman",
       "Rob Mars",
-      "Zach Galifianakis"
+      "Oliver Cooper",
+      "Danielle Burgio"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2004",
@@ -4545,7 +4752,9 @@
       "Olivia Hack",
       "John Kassir"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2012",
@@ -4578,7 +4787,9 @@
       "Danny Mann",
       "Zac Efron"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2012",
@@ -4609,7 +4820,9 @@
       "Ritchie Montgomery",
       "Adam LeFevre"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2018",
@@ -4635,10 +4848,41 @@
     "cast": [
       "Jason Statham",
       "Winston Chao",
-      "Cliff Curtis",
-      "Jessica McNamee"
+      "Jessica McNamee",
+      "Shuya Sophia Cai"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
+  },
+  {
+    "year": "2014",
+    "title": "The Other Woman",
+    "runtime": 109,
+    "rating": 6,
+    "source": "The.Other.Woman.2014.1080p.BluRay.x264.YIFY",
+    "description": "After discovering her boyfriend is married, Carly soon meets the wife he's been cheating on. And when yet another affair is discovered, all three women team up to plot mutual revenge on the three-timing SOB.",
+    "categories": [
+      "Action",
+      "Comedy",
+      "Romance"
+    ],
+    "tags": [
+      "infidelity",
+      "revenge",
+      "unfaithful boyfriend",
+      "extramarital affair",
+      "unfaithful husband"
+    ],
+    "cast": [
+      "Elizabeth Saint",
+      "Nicki Minaj",
+      "Olivia Culpo",
+      "Don Johnson"
+    ],
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2023",
@@ -4662,12 +4906,14 @@
       "amused"
     ],
     "cast": [
+      "Nina Dobrev",
       "Pierce Brosnan",
-      "Betsy Sodaro",
       "Jackie Sandler",
-      "Michael Rooker"
+      "Betsy Sodaro"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2009",
@@ -4696,7 +4942,39 @@
       "Aasif Mandvi",
       "Malin Akerman"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
+  },
+  {
+    "year": "2009",
+    "title": "The Ugly Truth",
+    "runtime": 96,
+    "rating": 6.4,
+    "source": "The.Ugly.Truth.2009.1080p.BrRip.x264.YIFY",
+    "description": "A romantically challenged morning show producer is reluctantly embroiled in a series of outrageous tests by her chauvinistic correspondent to prove his theories on relationships and help her find love. His clever ploys, however, lead to an unexpected result.",
+    "categories": [
+      "Action",
+      "Comedy",
+      "Romance"
+    ],
+    "tags": [
+      "surgeon",
+      "sexism",
+      "romantic comedy",
+      "romcom",
+      "romance",
+      "television producer"
+    ],
+    "cast": [
+      "Nick Searcy",
+      "Gerard Butler",
+      "Jesse D. Goins",
+      "Vicki Lewis"
+    ],
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2011",
@@ -4721,11 +4999,13 @@
     ],
     "cast": [
       "Samuel L. Jackson",
-      "Idris Elba",
       "Natalie Portman",
-      "Jeremy Renner"
+      "Anthony Hopkins",
+      "Rob Mars"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2022",
@@ -4733,7 +5013,7 @@
     "runtime": 118,
     "rating": 6.1,
     "source": "Thor.Love.And.Thunder.2022.1080p.BluRay.x264.AAC5.1-[YTS.MX]",
-    "description": "After his retirement is interrupted by Gorr the God Butcher, a galactic killer who seeks the\n                        extinction of the gods, Thor Odinson enlists the help of King Valkyrie, Korg, and ex-girlfriend\n                        Jane Foster, who now wields Mjolnir as the Mighty Thor. Together they embark upon a harrowing\n                        cosmic adventure to uncover the mystery of the God Butcher's vengeance and stop him before it's\n                        too late.",
+    "description": "After his retirement is interrupted by Gorr the God Butcher, a galactic killer who seeks the extinction of the gods, Thor Odinson enlists the help of King Valkyrie, Korg, and ex-girlfriend Jane Foster, who now wields Mjolnir as the Mighty Thor. Together they embark upon a harrowing cosmic adventure to uncover the mystery of the God Butcher’s vengeance and stop him before it’s too late.",
     "categories": [
       "Action",
       "Adventure",
@@ -4747,16 +5027,18 @@
       "hero",
       "ex-girlfriend",
       "superhero",
-      "greek\n                            mythology",
-      "based\n                            on comic"
+      "greek mythology",
+      "based on comic"
     ],
     "cast": [
       "Sam Neill",
-      "Vin Diesel",
       "Matt Damon",
-      "Idris Elba"
+      "Vin Diesel",
+      "Josh Brolin"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2013",
@@ -4781,11 +5063,13 @@
     ],
     "cast": [
       "Chris Evans",
-      "Idris Elba",
       "Natalie Portman",
-      "Anthony Hopkins"
+      "Anthony Hopkins",
+      "Ophelia Lovibond"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2013",
@@ -4813,9 +5097,9 @@
     ],
     "cast": [
       "Samuel L. Jackson",
-      "Luis Guzmán",
       "Ryan Reynolds",
-      "Paul Giamatti"
+      "Luis Guzmán",
+      "Paul Dooley"
     ],
     "subtitles": []
   },
@@ -4844,9 +5128,11 @@
       "Tom Hardy",
       "Woody Harrelson",
       "Melora Walters",
-      "Emilio Rivera"
+      "Carter Burch"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2021",
@@ -4875,34 +5161,42 @@
       "Woody Harrelson",
       "J.K. Simmons"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2008",
-    "title": "Burn-E",
-    "runtime": 727,
-    "rating": 7.5,
+    "title": "WALL·E",
+    "runtime": 98,
+    "rating": 8.4,
     "source": "WALL-E.2008.1080p.BrRip.x264.YIFY",
-    "description": "What lengths will a robot undergo to do his job? BURN·E is a dedicated hard working robot who finds himself locked out of his ship. BURN·E quickly learns that completing a simple task can often be a very difficult endeavor.",
+    "description": "What if mankind had to leave Earth and somebody forgot to turn the last robot off? After hundreds of years doing what he was built for, WALL•E discovers a new purpose in life when he meets a sleek search robot named EVE. EVE comes to realize that WALL•E has inadvertently stumbled upon the key to the planet's future, and races back to space to report to the humans. Meanwhile, WALL•E chases EVE across the galaxy and sets into motion one of the most imaginative adventures ever brought to the big screen.",
     "categories": [
+      "Action",
       "Adventure",
       "Animation",
-      "Comedy",
       "Family",
+      "Romance",
       "Sci-Fi"
     ],
     "tags": [
-      "space",
-      "robot",
-      "outer space",
-      "spaceship",
-      "short film"
+      "garbage",
+      "dystopia",
+      "space travel",
+      "distant future",
+      "loneliness",
+      "robot"
     ],
     "cast": [
-      "Angus MacLane",
-      "Tessa Swigart"
+      "Bob Bergen",
+      "Charles Fleischer",
+      "John Kassir",
+      "Sigourney Weaver"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2013",
@@ -4928,10 +5222,12 @@
     "cast": [
       "Luis Guzmán",
       "Sam Richardson",
-      "Jennifer Aniston",
-      "Matthew Willig"
+      "Matthew Willig",
+      "Thomas Lennon"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2016",
@@ -4954,11 +5250,13 @@
     ],
     "cast": [
       "Andrew Rannells",
-      "Bryan Cranston",
-      "James Franco",
-      "Kaley Cuoco"
+      "Mary Pat Gleason",
+      "Tim Neff",
+      "Jee Young Han"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2008",
@@ -4981,12 +5279,14 @@
       "sex comedy"
     ],
     "cast": [
-      "Seth Rogen",
-      "Elizabeth Banks",
       "Robert Roldan",
-      "Justin Long"
+      "Tisha Campbell-Martin",
+      "Elizabeth Banks",
+      "Tom Savini"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "year": "2016",
@@ -5013,11 +5313,13 @@
       "fox"
     ],
     "cast": [
+      "Terri Douglas",
+      "Jesse Corti",
       "Idris Elba",
-      "Jason Bateman",
-      "J.K. Simmons",
-      "Terri Douglas"
+      "J.K. Simmons"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   }
 ]
