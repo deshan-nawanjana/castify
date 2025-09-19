@@ -170,6 +170,9 @@ const extractMovieData = async input => {
   return [true, subtitleFound]
 }
 
+// create outputs directory
+if (!fs.existsSync("outputs")) { fs.mkdirSync("outputs") }
+
 // get movies list
 const movies = JSON.parse(fs.readFileSync("sources.json"))
 
