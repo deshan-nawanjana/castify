@@ -211,11 +211,17 @@ for (let i = 0; i < movies.length; i++) {
   if (fs.existsSync(detailsFile)) {
     // push to output
     output.push(JSON.parse(fs.readFileSync(detailsFile)))
-    // copy cover image
-    fs.copyFileSync("outputs/" + source + ".jpg", "../library/covers/" + source + ".jpg")
+    // get cover paths
+    const coverSource = "outputs/" + source + ".jpg"
+    const coverTarget = "../library/covers/" + source + ".jpg"
+    // copy cover image if not exists
+    if (!fs.existsSync(coverTarget)) { fs.copyFileSync(coverSource, coverTarget) }
+    // get subtitle paths
+    const subtitleSource = "outputs/" + source + ".vtt"
+    const subtitleTarget = "../library/subtitles/" + source + ".en.vtt"
     // copy subtitle file if available
-    if (fs.existsSync("outputs/" + source + ".vtt")) {
-      fs.copyFileSync("outputs/" + source + ".vtt", "../library/subtitles/" + source + ".en.vtt")
+    if (fs.existsSync(subtitleSource) && !fs.existsSync(subtitleTarget)) {
+      fs.copyFileSync(subtitleSource, subtitleTarget)
     }
   }
 }
