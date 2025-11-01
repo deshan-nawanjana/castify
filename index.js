@@ -303,11 +303,10 @@ window.app = new Vue({
       const title = item.title.toLowerCase()
       const description = item.description.toLowerCase()
       const categories = item.categories.join(" ").toLowerCase()
-      const tags = item.tags.join(" ").toLowerCase()
       const cast = item.cast.join(" ").toLowerCase()
       // return with query option
       return ({
-        ...item, query: `${title} ${description} ${categories} ${tags} ${cast}`,
+        ...item, query: `${title} ${description} ${categories} ${cast}`,
       })
     })
     // time interval loop
