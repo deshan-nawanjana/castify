@@ -100,7 +100,7 @@ window.app = new Vue({
       // get media url
       const url = this.currentMedia.media.contentId
       // get media source
-      const source = url.split("/").pop().replace(".mp4", "")
+      const source = url.split("/").pop()
       // return library item by source id
       return this.library.find(item => item.source === source)
     },
@@ -192,7 +192,7 @@ window.app = new Vue({
       this.current.pending = { ...item, pending: true }
       // load media into receiver
       const media = await this.caster.load({
-        url: `${local}/${item.source}.mp4`,
+        url: `${local}/${item.source}`,
         cover: `${host}/library/covers/${item.source}.jpg`,
         title: `${item.title} (${item.year})`,
         description: item.description,
