@@ -192,7 +192,7 @@ window.app = new Vue({
       this.current.pending = { ...item, pending: true }
       // load media into receiver
       const media = await this.caster.load({
-        url: `${local}/${item.source}`,
+        url: `${local}/library/movies/${item.source}`,
         cover: `${host}/library/covers/${item.source}.jpg`,
         title: `${item.title} (${item.year})`,
         description: item.description,
