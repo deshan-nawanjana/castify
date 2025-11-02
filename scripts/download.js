@@ -1,5 +1,4 @@
 import fs from "fs"
-import jszip from "jszip"
 
 // get source path
 const sourcePath = process.argv[2]
