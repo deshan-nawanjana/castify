@@ -178,9 +178,7 @@
       "Simon Pegg",
       "Joanna Lumley"
     ],
-    "subtitles": [
-      "en"
-    ]
+    "subtitles": []
   },
   {
     "source": "Alexander.and.the.Terrible,.Horrible,.No.Good,.Very.Bad.Day.2014.1080p.BluRay.x264.YIFY.mp4",
@@ -763,7 +761,8 @@
       "Oliver Platt"
     ],
     "subtitles": [
-      "en"
+      "en",
+      "si"
     ]
   },
   {
@@ -1741,7 +1740,9 @@
       "Bill Nighy",
       "David Bradley"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "source": "Hot.Tub.Time.Machine.2.2015.1080p.BluRay.x264.YIFY.mp4",
@@ -2179,7 +2180,9 @@
       "Benedict Wong",
       "Stephen Campbell Moore"
     ],
-    "subtitles": []
+    "subtitles": [
+      "en"
+    ]
   },
   {
     "source": "Johnny.English.Strikes.Again.2018.1080p.BluRay.x264-[YTS.AM].mp4",
