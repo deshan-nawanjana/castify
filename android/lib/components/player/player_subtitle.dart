@@ -97,10 +97,10 @@ class _PlayerSubtitleState extends State<PlayerSubtitle> {
         return Align(
           alignment: Alignment.bottomCenter,
           child: Container(
-            margin: EdgeInsets.only(bottom: 20),
-            padding: EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+            margin: EdgeInsets.only(bottom: 80),
+            padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
             decoration: BoxDecoration(
-              color: Colors.black.withAlpha(100),
+              color: Colors.black.withAlpha(60),
               borderRadius: BorderRadius.circular(12.0),
             ),
             child: Text(
