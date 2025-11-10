@@ -11,7 +11,7 @@ class HomeLogo extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Image(image: AssetImage('assets/logo.png'), width: 150),
+          Image(image: AssetImage('assets/icon.png'), width: 150),
           const SizedBox(height: 50),
           const CircularProgressIndicator(),
         ],
