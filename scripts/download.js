@@ -89,13 +89,42 @@ const extractMovieData = async (id, path) => {
   fs.writeFileSync(path, JSON.stringify(movieData, null, 2))
 }
 
+// regular expression to find time line from srt content
+const timeRegex = /(\d{2}:\d{2}:\d{2},\d{3}) --> (\d{2}:\d{2}:\d{2},\d{3})/
+
 // method to generate vtt subtitle content
-const toVTTSubtitles = text => (
-  "WEBVTT\n\n" + text
-    .replace(/\r+/g, "")
-    .replace(/^\uFEFF/, "")
-    .replace(/(\d+:\d+:\d+),(\d+)/g, "$1.$2")
-)
+const toVTTSubtitles = (input = "") => {
+  // split into lines
+  const lines = input.split("\n")
+  // output array
+  const output = []
+  // for each line
+  for (let i = 0; i < lines.length; i++) {
+    // current line
+    const line = lines[i]
+    // check for time line
+    if (timeRegex.test(line)) {
+      // texts array
+      const texts = []
+      // until find the next time line
+      for (let t = i + 1; t < lines.length && !timeRegex.test(lines[t + 2]); t += 1) {
+        // push each text line
+        texts.push(lines[t].trim())
+      }
+      // push segment with time
+      output.push({
+        // convert time to vtt format
+        time: line.replaceAll(",", "."),
+        // ignore empty lines while joining
+        text: texts.filter(text => text !== "").join("\n")
+      })
+    }
+  }
+  // return mapped vtt content
+  return "WEBVTT\n\n" + output.map(item => (
+    `${item.time}\n${item.text}`
+  )).join("\n\n");
+}
 
 // get sources from source path
 const sources = fs.readdirSync(sourcePath, { recursive: false })
