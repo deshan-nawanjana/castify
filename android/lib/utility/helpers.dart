@@ -98,7 +98,6 @@ Subtitles toSubtitleTrack(String input) {
     final line = lines[i].trim();
     // line validations
     final isHead = line.startsWith("WEBVTT");
-    final isNumber = RegExp(r'^\d+$').hasMatch(line);
     final isEmpty = line.isEmpty;
     final isTime = line.contains('-->');
     final isEnd = i == lines.length - 1;
@@ -120,7 +119,7 @@ Subtitles toSubtitleTrack(String input) {
       }
     }
     // continue unwanted lines
-    if (isEmpty || isNumber || isHead) continue;
+    if (isEmpty || isHead) continue;
     // check for timestamps line
     if (isTime) {
       // split time strings
