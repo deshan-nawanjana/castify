@@ -33,7 +33,7 @@ class _HomeState extends State<Home> {
   /// Method to fetch available server address
   Future<void> connect() async {
     // for each ip number
-    for (int number = 5; number < 12; number += 1) {
+    for (int number = 1; number < 15; number += 1) {
       // create ip address
       final server = "192.168.1.$number:8000";
       // parse library data url
