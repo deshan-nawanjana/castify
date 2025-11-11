@@ -1,4 +1,8 @@
 import fs from "fs"
+import path from "path"
+
+// create downloads directory
+fs.mkdirSync("downloads", { recursive: true })
 
 // get source path
 const sourcePath = process.argv[2]
@@ -126,8 +130,16 @@ const toVTTSubtitles = (input = "") => {
   )).join("\n\n");
 }
 
+// video extensions
+const videoExtensions = [".mp4", ".mkv", ".avi", ".mov", ".wmv", ".flv", ".webm"]
+
 // get sources from source path
-const sources = fs.readdirSync(sourcePath, { recursive: false })
+const sources = fs.readdirSync(sourcePath, { recursive: false }).filter(file => {
+  // get file extension
+  const extension = path.extname(file).toLowerCase()
+  // check with any video extension
+  return videoExtensions.includes(extension)
+})
 
 // load targets array
 const targets = JSON.parse(fs.readFileSync("targets.json"))
@@ -137,9 +149,16 @@ for (let i = 0; i < sources.length; i++) {
   // get current source
   const source = sources[i]
   // get output path
-  const outputPath = `outputs/json/${source}.json`
-  // continue if output exists
-  if (fs.existsSync(outputPath)) { continue }
+  const outputPath = `downloads/${source}.json`
+  // check output existence
+  if (fs.existsSync(outputPath)) {
+    // log existence
+    console.log("[JSON] [SKIP]", source)
+    // continue if exists
+    continue
+  }
+  // log download
+  console.log("[JSON] [DONE]", source)
   // find for a target id
   const target = targets.find(item => item.name === source)
   // check target
@@ -174,9 +193,15 @@ for (let i = 0; i < sources.length; i++) {
 fs.writeFileSync("targets.json", JSON.stringify(targets, null, 2))
 
 // get json files
-const jsonFiles = fs.readdirSync("outputs/json")
+const jsonFiles = fs.readdirSync("downloads")
+
 // get subtitle files
-const subtitleFiles = fs.readdirSync("outputs/srt")
+const subtitleFiles = fs.readdirSync(sourcePath, { recursive: false }).filter(file => {
+  // get file extension
+  const extension = path.extname(file).toLowerCase()
+  // check with subtitle extension
+  return extension === ".srt"
+})
 
 // output array
 const output = []
@@ -186,7 +211,7 @@ for (let i = 0; i < jsonFiles.length; i++) {
   // get source path
   const source = jsonFiles[i].replace(".json", "")
   // get current movie data
-  const data = JSON.parse(fs.readFileSync(`outputs/json/${source}.json`))
+  const data = JSON.parse(fs.readFileSync(`downloads/${source}.json`))
   // get movie object
   const movie = data.data.movie
   // get image path
@@ -197,21 +222,39 @@ for (let i = 0; i < jsonFiles.length; i++) {
     const imageData = await fetchData(movie.large_cover_image, "bytes")
     // store image if data available
     if (imageData) { fs.writeFileSync(imagePath, imageData) }
+    // log success
+    console.log("[IMAGE] [DONE]", source)
+  } else {
+    // log existence
+    console.log("[IMAGE] [SKIP]", source)
   }
+  // get file name
+  const name = source.substring(0, source.lastIndexOf("."))
   // filter subtitles
-  const subtitles = subtitleFiles.filter(item => item.startsWith(source))
+  const subtitles = subtitleFiles.filter(item => item.startsWith(name))
+  // languages array
+  const languages = []
   // for each subtitle file
   for (let s = 0; s < subtitles.length; s++) {
     // get current file
     const file = subtitles[s]
+    // get subtitle language
+    const lang = file.replace(name, "").split(".")[1]
+    // push to languages
+    languages.push(lang)
     // get subtitle path
-    const subtitlePath = `../library/subtitles/${file.replace(".srt", ".vtt")}`
+    const subtitlePath = `../library/subtitles/${source}.${lang}.vtt`
     // check if subtitle not available
     if (!fs.existsSync(subtitlePath)) {
       // read srt content
-      const text = fs.readFileSync(`outputs/srt/${file}`, { encoding: "utf-8" })
+      const text = fs.readFileSync(`${sourcePath}/${file}`, { encoding: "utf-8" })
       // convert and write into library
       fs.writeFileSync(subtitlePath, toVTTSubtitles(text))
+      // log success
+      console.log("[TEXT] [DONE]", source)
+    } else {
+      // log existence
+      console.log("[TEXT] [SKIP]", source)
     }
   }
   // push data into output
@@ -224,7 +267,7 @@ for (let i = 0; i < jsonFiles.length; i++) {
     description: movie.description_intro,
     categories: movie.genres,
     cast: movie.cast?.map(item => item.name) ?? [],
-    subtitles: subtitles.map(item => item.replace(source).split(".")[1])
+    subtitles: languages
   })
 }
 
