@@ -1,5 +1,5 @@
 # node modules
 node_modules
 
-# download outputs
-scripts/outputs
+# cache downloads
+scripts/downloads
