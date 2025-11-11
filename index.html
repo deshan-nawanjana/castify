@@ -20,7 +20,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Castify">
   <meta name="twitter:description" content="Chromecast-Enabled Movie Library for Streaming">
-  <meta name="twitter:image" content="https://deshan-nawanjana.github.io/castify/assets/images/cover.png">  
+  <meta name="twitter:image" content="https://deshan-nawanjana.github.io/castify/assets/images/cover.png">
   <!-- preload : fonts -->
   <link rel="preload" href="./assets/fonts/Inter-Regular.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="preload" href="./assets/fonts/Inter-Light.ttf" as="font" type="font/ttf" crossorigin>
@@ -78,10 +78,18 @@
       <div
         class="item"
         v-for="item in results"
-        @click="select(item)"
         :data-status="status(item.source)"
         :style="image(item.source)">
-        <div class="item-hover"></div>
+        <div class="item-hover">
+          <div
+            class="item-hover-play"
+            @click="select(item)">
+          </div>
+          <div
+            class="item-hover-open"
+            @click="open(item)">
+          </div>
+        </div>
       </div>
     </div>
     <div class="actions">

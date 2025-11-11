@@ -160,7 +160,6 @@ body {
   background-position: center;
   background-color: #FFF2;
   border-radius: 10px;
-  cursor: pointer;
   overflow: hidden;
   transition: all 0.15s;
 }
@@ -170,11 +169,12 @@ body {
   width: inherit;
   height: inherit;
   background-color: #1117;
-  background-image: url(./assets/images//icons/play.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 80px auto;
   transition: all 0.15s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 10px;
 }
 
 .item:hover {
@@ -202,17 +202,40 @@ body {
   opacity: 1;
 }
 
-.item[data-status="pending"] .item-hover {
+.item-hover-play {
+  width: 60px;
+  height: 60px;
+  background-image: url(./assets/images/icons/play.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80px auto;
+  cursor: pointer;
+}
+
+.item-hover-open {
+  width: 60px;
+  height: 60px;
+  background-image: url(./assets/images/icons/open.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 35px auto;
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.item[data-status="pending"] .item-hover-play {
   background-image: url(./assets/images/icons/spinner.svg);
   background-size: 45px auto;
 }
 
-.item[data-status="playing"] .item-hover {
+.item[data-status="playing"] .item-hover-play {
   background-image: url(./assets/images/icons/pause.svg);
   background-size: 55px auto;
 }
 
-.item[data-status="paused"] .item-hover {
+.item[data-status="paused"] .item-hover-play {
   background-image: url(./assets/images/icons/play.svg);
   background-size: 55px auto;
 }

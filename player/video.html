@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="/index.png" type="image/png">
+  <!-- preload : fonts -->
+  <link rel="preload" href="/assets/fonts/Inter-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="/assets/fonts/Inter-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
+  <!-- preload : images -->
+  <link rel="preload" href="/assets/images/icons/play.svg" as="image" type="image/svg+xml">
+  <link rel="preload" href="/assets/images/icons/pause.svg" as="image" type="image/svg+xml">
+  <link rel="preload" href="/assets/images/icons/fullscreen.svg" as="image" type="image/svg+xml">
+  <link rel="preload" href="/assets/images/icons/windowed.svg" as="image" type="image/svg+xml">
+  <!-- style -->
+  <link rel="stylesheet" href="./video.css">
+  <!-- fonts -->
+  <link rel="stylesheet" href="/assets/fonts/fonts.css">
+  <!-- libraries -->
+  <script src="/assets/libraries/vue.min.js"></script>
+  <!-- script -->
+  <script src="./video.js" type="module" defer></script>
+  <!-- page title -->
+  <title>Castify Player</title>
+</head>
+<body>
+  <div id="app" v-if="movie">
+    <!-- video -->
+    <video
+      ref="video"
+      :src="source"
+      @play="playing = true"
+      @pause="playing = false"
+      @loadedmetadata="init"
+      playsinline
+      autoplay
+      muted>
+    </video>
+    <!-- overlay -->
+    <div
+      class="overlay"
+      v-if="duration"
+      :data-active="overlay || !playing">
+      <!-- header -->
+      <div class="header">
+        <div class="header-title">
+          {{movie.title}} ({{movie.year}})
+        </div>
+        <div
+          class="header-caption"
+          v-if="captions.length"
+          :data-active="!!caption"
+          @click="subtitle">
+          {{ caption ? caption.lang : 'CC' }}
+        </div>
+        <div
+          class="header-screen"
+          :data-active="fullscreen"
+          @click="screen">
+        </div>
+      </div>
+      <!-- body -->
+      <div class="body" @click="toggle"></div>
+      <!-- footer -->
+      <div class="footer">
+        <!-- options -->
+        <div class="footer-options">
+          <div class="toggle" :data-playing="playing" @click="toggle">
+          </div>
+          <div class="time">
+            {{time(current)}} / {{time(duration)}}
+          </div>
+        </div>
+        <!-- seek -->
+        <div
+          class="seek"
+          :style="{ '--value': current / duration }"
+          @click="seek">
+        </div>
+      </div>
+    </div>
+    <div class="caption">
+      <span
+        class="caption-text"
+        v-if="text"
+        v-html="text">
+      </span>
+    </div>
+  </div>
+</body>
+</html>

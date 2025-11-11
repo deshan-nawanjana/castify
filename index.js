@@ -159,6 +159,11 @@ window.app = new Vue({
       // return time label
       return `${hh}:${mm}:${ss}`
     },
+    // method to open movie
+    open(item) {
+      // open web player with movie slug
+      window.open("player/video.html?id=" + item.slug)
+    },
     // method to select movie
     async select(item) {
       // return if no local ip
@@ -304,9 +309,11 @@ window.app = new Vue({
       const description = item.description.toLowerCase()
       const categories = item.categories.join(" ").toLowerCase()
       const cast = item.cast.join(" ").toLowerCase()
+      const slug = title.replace(/[^a-zA-Z0-9\s]/g, "")
       // return with query option
       return ({
         ...item, query: `${title} ${description} ${categories} ${cast}`,
+        slug: slug.replace(/  /g, " ").replace(/ /g, "-") + "-" + item.year
       })
     })
     // time interval loop
