@@ -11,6 +11,29 @@ window.__onGCastApiAvailable = isAvailable => {
   caster.initialize()
 }
 
+// helper to fetch content
+const fetchData = (path, type = "json") => {
+  // return promise
+  return new Promise(resolve => {
+    fetch(path + "?t=" + Date.now()).then(resp => {
+      resp[type]().then(resolve).catch(() => resolve(null))
+    }).catch(() => resolve(null))
+  })
+}
+
+// method to fetch local server
+const fetchLocalServer = async () => {
+  // for each ip number
+  for (let i = 1; i < 15; i++) {
+    // current server
+    const server = `http://192.168.1.${i}:8000`
+    // try fetch library
+    const data = await fetchData(`${server}/library/data.json`)
+    // navigate to local server if available
+    if (data) window.location.href = server
+  }
+}
+
 // create vue app
 window.app = new Vue({
   // root element
@@ -298,10 +321,14 @@ window.app = new Vue({
   },
   // method on mount
   async mounted() {
+    // get url params
+    const params = new URLSearchParams(window.location.search)
+    // fetch for a local server
+    if (params.has("local")) return fetchLocalServer()
     // load library options
-    this.options = await fetch("index.json").then(resp => resp.json())
+    this.options = await fetchData("index.json")
     // load library movies
-    const movies = await fetch("library/data.json").then(resp => resp.json())
+    const movies = await fetchData("library/data.json")
     // map movies into library items
     this.library = movies.map(item => {
       // get query values
