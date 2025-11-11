@@ -21,19 +21,6 @@ const fetchData = (path, type = "json") => {
   })
 }
 
-// method to fetch local server
-const fetchLocalServer = async () => {
-  // for each ip number
-  for (let i = 1; i < 15; i++) {
-    // current server
-    const server = `http://192.168.1.${i}:8000`
-    // try fetch library
-    const data = await fetchData(`${server}/library/data.json`)
-    // navigate to local server if available
-    if (data) window.location.href = server
-  }
-}
-
 // create vue app
 window.app = new Vue({
   // root element
@@ -321,10 +308,6 @@ window.app = new Vue({
   },
   // method on mount
   async mounted() {
-    // get url params
-    const params = new URLSearchParams(window.location.search)
-    // fetch for a local server
-    if (params.has("local")) return fetchLocalServer()
     // load library options
     this.options = await fetchData("index.json")
     // load library movies
