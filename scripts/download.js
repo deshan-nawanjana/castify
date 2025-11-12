@@ -239,7 +239,8 @@ for (let i = 0; i < jsonFiles.length; i++) {
     // get current file
     const file = subtitles[s]
     // get subtitle language
-    const lang = file.replace(name, "").split(".")[1]
+    const parts = file.replace(name, "").split(".")
+    const lang = parts.length === 3 ? parts[1] : "cc"
     // push to languages
     languages.push(lang)
     // get subtitle path
