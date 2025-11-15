@@ -26,7 +26,7 @@
   <title>Castify Player</title>
 </head>
 <body>
-  <div id="app" v-if="movie">
+  <div id="app" v-if="movie" :data-overlay="overlay || !playing">
     <!-- video -->
     <video
       ref="video"

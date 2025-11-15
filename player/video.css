@@ -18,6 +18,11 @@ body {
 
 #app {
   position: relative;
+  cursor: none;
+}
+
+#app[data-overlay] {
+  cursor: initial;
 }
 
 video {
