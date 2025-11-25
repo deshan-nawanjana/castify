@@ -7,8 +7,8 @@ fs.mkdirSync("downloads", { recursive: true })
 // get source path
 const sourcePath = process.argv[2]
 // api endpoints
-const searchEndpoint = "https://yts.mx/api/v2/list_movies.json?limit=50&query_term="
-const detailsEndpoint = "https://yts.mx/api/v2/movie_details.json?with_cast=true&movie_id="
+const searchEndpoint = "https://yts.lt/api/v2/list_movies.json?limit=50&query_term="
+const detailsEndpoint = "https://yts.lt/api/v2/movie_details.json?with_cast=true&movie_id="
 
 // method to fetch data
 const fetchData = (path, type = "json") => {
