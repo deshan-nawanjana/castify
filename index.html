@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/png">
+  <!-- style -->
+  <link rel="stylesheet" href="./index.css">
+  <!-- preload : fonts -->
+  <link rel="stylesheet" href="./assets/fonts/fonts.css">
+  <link rel="preload" href="./assets/fonts/Inter/Inter-400.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="./assets/fonts/Inter/Inter-500.ttf" as="font" type="font/ttf" crossorigin>
+  <!-- preload : images -->
+  <link rel="preload" href="./assets/images/play.svg" as="image" type="image/svg+xml">
+  <link rel="preload" href="./assets/images/pause.svg" as="image" type="image/svg+xml">
+  <link rel="preload" href="./assets/images/spinner.svg" as="image" type="image/svg+xml">
+  <link rel="preload" href="./assets/images/cast.svg" as="image" type="image/svg+xml">
+  <!-- libraries -->
+  <script src="./assets/libraries/vue.min.js"></script>
+  <!-- script -->
+  <script src="./index.js" type="module" defer></script>
+  <!-- page title -->
+  <title>Castify</title>
+</head>
+
+<body>
+  <!-- app root -->
+  <div id="app" :data-ready="ready" v-if="ready" :style="toCSS(selected, 'cover')">
+    <!-- error screen -->
+    <div class="error" v-if="error">
+      <div class="error-logo"></div>
+      <div class="error-message">
+        Castify is not available for this device
+      </div>
+    </div>
+    <!-- home screen -->
+    <div class="home" v-if="!error" :data-active="!!selected">
+      <div class="container">
+        <!-- tabs -->
+        <div class="tabs">
+          <div class="tab-item" :data-active="tab === 'player'" @click="tab = 'player'" v-if="selected">
+            Player
+          </div>
+          <div class="tab-item" :data-active="tab === 'library'" @click="tab = 'library'">
+            Library
+          </div>
+        </div>
+        <!-- player -->
+        <div class="player" v-if="selected && tab === 'player'">
+          <div class="player-title">
+            {{selected.title}}
+          </div>
+          <div class="player-image" :style="toCSS(selected, 'poster')"></div>
+          <fieldset class="player-controls" v-if="controls.active" :disabled="controls.buffering">
+            <button class="player-toggle" @click="play" :data-state="controls.state"></button>
+            <div class="player-seek">
+              <div class="player-seek-bar" @click="seek">
+                <div class="player-seek-value" :style="toSeek()"></div>
+              </div>
+              <div class="player-footer">
+                <div class="player-seek-time">
+                  {{toTime(controls.time)}} / {{toTime(selected.duration)}}
+                </div>
+                <div class="player-tracks">
+                  <div class="player-track" v-if="selected.subtitles.length" :data-active="controls.track === null"
+                    @click="subtitle(null)">
+                    none
+                  </div>
+                  <div class="player-track" v-for="track in selected.subtitles"
+                    :data-active="controls.track === track.language" @click="subtitle(track.language)">
+                    {{track.language}}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <div class="player-spinner" v-if="!controls.active"></div>
+        </div>
+        <!-- library -->
+        <div class="list" v-if="tab === 'library'">
+          <div class="item" v-for="item in movies" @click="load(item)">
+            <div class="item-image" :style="toCSS(item, 'poster')">
+              <div class="item-play"></div>
+            </div>
+            <div class="item-details">
+              <div class="item-title">
+                {{item.title}}
+              </div>
+              <div class="item-description">
+                {{item.description}}
+              </div>
+              <div class="item-tracks">
+                <div class="item-track-label" v-for="track in item.subtitles">
+                  {{track.language}}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+          <a href="https://www.youtube.com/playlist?list=PL6B3937A5D230E335" target="_blank">
+            Open Movies by <span>Blender</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
