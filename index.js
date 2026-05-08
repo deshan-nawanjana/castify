@@ -1,7 +1,5 @@
 import { Castify } from "./modules/Castify.js"
 
-window.Castify = Castify
-
 new Vue({
   // root element
   el: "#app",
